@@ -1,0 +1,2868 @@
+{
+    "pagination":
+    {
+        "total": 116159,
+        "limit": 12,
+        "offset": 0,
+        "total_pages": 9680,
+        "current_page": 1,
+        "next_url": "https://api.artic.edu/api/v1/artworks?page=2"
+    },
+    "data":
+    [
+        {
+            "id": 159978,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/159978",
+            "is_boosted": false,
+            "title": "Knife (Kard) with Battling Elephants, Rhinoceros and Lions on the sheath",
+            "alt_titles": null,
+            "thumbnail": null,
+            "main_reference_number": "2022.8",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 1601,
+            "date_end": 1799,
+            "date_display": "18th century",
+            "date_qualifier_title": "",
+            "date_qualifier_id": null,
+            "artist_display": "India",
+            "place_of_origin": "India",
+            "dimensions": "38.1 x 3.5 x 4.4 cm (12 1/2 x 1 3/8 x 1 3/4 in.)",
+            "medium_display": "Watered steel, ivory, and pierced and chased gold, wood and velvet",
+            "inscriptions": null,
+            "credit_line": "James W. and Marilynn Alsdorf Collection. Gift of Marilynn Alsdorf",
+            "publication_history": "Pratapaditya Pal with contributions by Stephen Little, <em>A Collecting Odyssey: Indian, Himalayan, and Southeast Asian Art from the James and Marilynn Alsdorf Collection</em> (Chicago: The Art Institute of Chicago in association with Thames and Hudson, 1997), 243 (ill.), 347, cat. 332.",
+            "exhibition_history": "Art Institute of Chicago, <em>A Collecting Odyssey: Indian, Himalayan, and Southeast Asian Art from the James and Marilynn Alsdorf Collection</em>, Aug. 2–Oct. 26, 1997, cat. 332.",
+            "provenance_text": "With Kapoor Galleries, New York, by May 14, 1987 [this and the following according to receipt from Kapoor Galleries, May 14, 1987; copy in curatorial object file]; sold to James W. Alsdorf (1913–1990) and Marilynn B. Alsdorf (1925–2019), Winnetka and Chicago IL, by May 14, 1987; by descent to Marilynn B. Alsdorf, Chicago, 1990 [on long-term loan at the Art Institute of Chicago, Sept. 17, 1997; publicly promised as a gift to the Art Institute of Chicago, 1997; offered as a promised gift to the Art Institute, 2002]; given to the Art Institute of Chicago, 2022.",
+            "publishing_verification_level": "Web Cataloged",
+            "internal_department_id": 8,
+            "fiscal_year": 2022,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": true,
+            "is_zoomable": true,
+            "max_zoom_window_size": -1,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "colorfulness": null,
+            "color": null,
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "artwork_type_title": "Armor",
+            "artwork_type_id": 29,
+            "department_title": "Arts of Asia",
+            "department_id": "PC-7",
+            "artist_id": null,
+            "artist_title": null,
+            "alt_artist_ids":
+            [],
+            "artist_ids":
+            [],
+            "artist_titles":
+            [],
+            "category_ids":
+            [
+                "PC-7",
+                "PC-104"
+            ],
+            "category_titles":
+            [
+                "Arts of Asia",
+                "South Asian"
+            ],
+            "artwork_catalogue_ids":
+            [],
+            "term_titles":
+            [
+                "edged weapon-sword",
+                "South Asian",
+                "armor"
+            ],
+            "style_id": "TM-5344",
+            "style_title": "South Asian",
+            "alt_style_ids":
+            [],
+            "style_ids":
+            [
+                "TM-5344"
+            ],
+            "style_titles":
+            [
+                "South Asian"
+            ],
+            "classification_id": "TM-1057",
+            "classification_title": "edged weapon-sword",
+            "alt_classification_ids":
+            [
+                "TM-64"
+            ],
+            "classification_ids":
+            [
+                "TM-1057",
+                "TM-64"
+            ],
+            "classification_titles":
+            [
+                "edged weapon-sword",
+                "armor"
+            ],
+            "subject_id": null,
+            "alt_subject_ids":
+            [],
+            "subject_ids":
+            [],
+            "subject_titles":
+            [],
+            "material_id": null,
+            "alt_material_ids":
+            [],
+            "material_ids":
+            [],
+            "material_titles":
+            [],
+            "technique_id": null,
+            "alt_technique_ids":
+            [],
+            "technique_ids":
+            [],
+            "technique_titles":
+            [],
+            "theme_titles":
+            [],
+            "image_id": null,
+            "alt_image_ids":
+            [],
+            "document_ids":
+            [],
+            "sound_ids":
+            [],
+            "video_ids":
+            [],
+            "text_ids":
+            [],
+            "section_ids":
+            [],
+            "section_titles":
+            [],
+            "site_ids":
+            [],
+            "suggest_autocomplete_all":
+            [
+                {
+                    "input":
+                    [
+                        "2022.8"
+                    ],
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input":
+                    [
+                        "Knife (Kard) with Battling Elephants, Rhinoceros and Lions on the sheath"
+                    ],
+                    "weight": 1,
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "last_updated_source": "2022-06-24T16:51:24-05:00",
+            "last_updated": "2022-06-26T10:06:55-05:00",
+            "timestamp": "2022-06-26T10:08:51-05:00"
+        },
+        {
+            "id": 71294,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/71294",
+            "is_boosted": false,
+            "title": "Border for a Table Cover or Valance",
+            "alt_titles":
+            [],
+            "thumbnail":
+            {
+                "lqip": "data:image/gif;base64,R0lGODlhFwAFAPYAAKB+WLN+W6KEV6iAXaONZq+MZ7iCZLiNZ7WMaLaPbb6ObLqUa7qSb7eebLmda6qbfL2ZcLyjaqudgK2dgK6dgLefh7qZg76ehq6gga+ggqighLOhgbOjhLOihbOkhrOmirWnibWniryjibmli72lib2ki7+ljL+mjbepirSojbapjLWrjrqpkLmqk7qtlLuvmLewt7qytLixtrixt7myt7q0t721tL21tr61t722t7myuLq0uL21uL61uL22uL+3uL63ub+5ub64ur+4ur+5ur+6ur+6u765vL+8vMKiicGni8OmjMGojcCrkMKtkMGvk8Sxks+8qNW/pdG+qdG+qsC2ssC3tMK4s8C4t8C3uMG3ucC3usG4ucC4usK5u8C6usC6u8K6vMO7vMK6vcO7vdXBp9nDpwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAXAAUAAAd0gDU2WEhEP0FfRWBDRGBERjk+QkBHWTc6VlIuF0xQSiRLJk4nFSJJT00lIxYtVDRVZhoBCxEHAgkMDggABQoNEAMEBhJTM1dlLysoHBggKh4UDx4hGRMbHSkfLFEyOzldY2FjZGFe4mJcWVpbPz84PTwxMIEAOw==",
+                "width": 6388,
+                "height": 1195,
+                "alt_text": "A work made of cotton, plain weave; embroidered with silk in satin, surface satin, and stem stitches; laid work and couching."
+            },
+            "main_reference_number": "1988.108",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 1890,
+            "date_end": 1899,
+            "date_display": "Design 1890s",
+            "date_qualifier_title": "Designed",
+            "date_qualifier_id": 2,
+            "artist_display": "Design attributed to May Morris (English, 1862–1938)\nProduced by Morris & Co., London (English, 1875–1940)",
+            "place_of_origin": "England",
+            "dimensions": "Overall: 43.5 x 274.3 cm (17 1/8 x 108 in.)\nImage: 26.7 x 233 cm (10 1/2 x 91 3/4 in.)",
+            "medium_display": "Cotton, plain weave; embroidered with silk in satin, surface satin, and stem stitches; laid work and couching",
+            "inscriptions": null,
+            "credit_line": "Ada Turnbull Hertle Endowment",
+            "publication_history": null,
+            "exhibition_history": "Art Institute of Chicago, Elizabeth F. Cheney and Agnes Allerton Textile Galleries, Gift, Bequest and Purchase: A Selection of Textile Acquisitions from 1988–1992, Mar. 30–July 24, 1994.\n\nArt Institute of Chicago, Elizabeth F. Cheney and Agnes Allerton Textile Galleries, Revival and Reform: A Growing 19th Century Textile Collection, Nov. 25, 1998–Feb. 28, 1999.\n\nArt Institute of Chicago, <a href=\"https://www.artic.edu/exhibitions/9325\">  Morris and Company: The Business of Beauty</a>, Dec. 18, 2021–June 13, 2022, no cat.",
+            "provenance_text": "Meg Andrews, Hertfordshire, England, by 1988 [Incoming receipt RX10713 12/16/1987 in curatorial file, Textiles Department]; sold to the Art Institute of Chicago, 1988.",
+            "publishing_verification_level": "Web Everything",
+            "internal_department_id": 4,
+            "fiscal_year": null,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": true,
+            "is_zoomable": true,
+            "max_zoom_window_size": -1,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "colorfulness": 36.9267,
+            "color":
+            {
+                "h": 41,
+                "l": 51,
+                "s": 56,
+                "percentage": 0.0019553400336318485,
+                "population": 3
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "artwork_type_title": "Textile",
+            "artwork_type_id": 5,
+            "department_title": "Textiles",
+            "department_id": "PC-14",
+            "artist_id": 65385,
+            "artist_title": "May Morris",
+            "alt_artist_ids":
+            [
+                60146
+            ],
+            "artist_ids":
+            [
+                60146,
+                65385
+            ],
+            "artist_titles":
+            [
+                "Morris & Co.",
+                "May Morris"
+            ],
+            "category_ids":
+            [
+                "PC-14"
+            ],
+            "category_titles":
+            [
+                "Textiles"
+            ],
+            "artwork_catalogue_ids":
+            [],
+            "term_titles":
+            [
+                "flowers",
+                "cotton (textile)",
+                "plain weaving",
+                "textile",
+                "Arts and Crafts Movement",
+                "needlework (visual works)",
+                "floral motifs",
+                "embroidering",
+                "Modernism",
+                "british",
+                "19th century",
+                "British Arts and Crafts Movement",
+                "embroidery",
+                "natural dye"
+            ],
+            "style_id": "TM-7569",
+            "style_title": "Arts and Crafts Movement",
+            "alt_style_ids":
+            [
+                "TM-5981",
+                "TM-14197",
+                "TM-13203",
+                "TM-14957"
+            ],
+            "style_ids":
+            [
+                "TM-7569",
+                "TM-5981",
+                "TM-14197",
+                "TM-13203",
+                "TM-14957"
+            ],
+            "style_titles":
+            [
+                "Arts and Crafts Movement",
+                "Modernism",
+                "british",
+                "19th century",
+                "British Arts and Crafts Movement"
+            ],
+            "classification_id": "TM-69",
+            "classification_title": "textile",
+            "alt_classification_ids":
+            [
+                "TM-83",
+                "TM-158"
+            ],
+            "classification_ids":
+            [
+                "TM-69",
+                "TM-83",
+                "TM-158"
+            ],
+            "classification_titles":
+            [
+                "textile",
+                "needlework (visual works)",
+                "embroidery"
+            ],
+            "subject_id": "TM-10482",
+            "alt_subject_ids":
+            [
+                "TM-12631"
+            ],
+            "subject_ids":
+            [
+                "TM-10482",
+                "TM-12631"
+            ],
+            "subject_titles":
+            [
+                "flowers",
+                "floral motifs"
+            ],
+            "material_id": "TM-2578",
+            "alt_material_ids":
+            [
+                "TM-3407"
+            ],
+            "material_ids":
+            [
+                "TM-2578",
+                "TM-3407"
+            ],
+            "material_titles":
+            [
+                "cotton (textile)",
+                "natural dye"
+            ],
+            "technique_id": "TM-10513",
+            "alt_technique_ids":
+            [
+                "TM-3914"
+            ],
+            "technique_ids":
+            [
+                "TM-10513",
+                "TM-3914"
+            ],
+            "technique_titles":
+            [
+                "plain weaving",
+                "embroidering"
+            ],
+            "theme_titles":
+            [],
+            "image_id": "f49ffc99-5bb7-c6d6-e714-74264d7d2378",
+            "alt_image_ids":
+            [],
+            "document_ids":
+            [],
+            "sound_ids":
+            [],
+            "video_ids":
+            [],
+            "text_ids":
+            [],
+            "section_ids":
+            [],
+            "section_titles":
+            [],
+            "site_ids":
+            [],
+            "suggest_autocomplete_all":
+            [
+                {
+                    "input":
+                    [
+                        "1988.108"
+                    ],
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input":
+                    [
+                        "Border for a Table Cover or Valance"
+                    ],
+                    "weight": 38,
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "last_updated_source": "2022-06-24T16:56:55-05:00",
+            "last_updated": "2022-06-26T10:06:55-05:00",
+            "timestamp": "2022-06-26T10:08:51-05:00"
+        },
+        {
+            "id": 249114,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/249114",
+            "is_boosted": false,
+            "title": "Cray",
+            "alt_titles":
+            [],
+            "thumbnail":
+            {
+                "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAH9vZn5wZ31zaoBuZIBuZYJwZYJxaIZ1aoV3bIJ5cId6cId6cYZ7c457co99cwAAACH5BAAAAAAALAAAAAADAAUAAAQLMAlWhjtgoaAMaREAOw==",
+                "width": 6473,
+                "height": 9630,
+                "alt_text": "A work made of block printed cotton."
+            },
+            "main_reference_number": "2018.827",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 1884,
+            "date_end": 1884,
+            "date_display": "Design 1884, made 1884–1917",
+            "date_qualifier_title": "Designed",
+            "date_qualifier_id": 2,
+            "artist_display": "Designed by William Morris (English, 1834–1896)\nProduced by Morris & Co., London (English, 1875–1940)\nMerton Abbey, London (English, 1881–1940)",
+            "place_of_origin": "England",
+            "dimensions": "142.9 × 94.6 cm (56 1/4 × 37 1/4 in.)\nRepeat: 92 × 45 cm (36 1/4 × 17 3/4 in.)",
+            "medium_display": "Block printed cotton",
+            "inscriptions": "Selvedges: REGD MORRIS & COMPANY 449 OXFORD STREET LONDON W (wavy)",
+            "credit_line": "Gift of Crab Tree Farm Foundation",
+            "publication_history": null,
+            "exhibition_history": "Art Institute of Chicago, <a href=\"https://www.artic.edu/exhibitions/9325\"> Morris and Company: The Business of Beauty</a>, Dec. 18, 2021–June 13, 2022, no cat.",
+            "provenance_text": "Haslam & Whiteway, London, by 2007; sold to Crab Tree Farm Foundation, Lake Bluff, IL, Sept. 6, 2007 [Crab Tree Farm Foundation catalog record; copy in curatorial file]; given to the Art Institute of Chicago, 2018.",
+            "publishing_verification_level": "Web Everything",
+            "internal_department_id": 4,
+            "fiscal_year": 2019,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": false,
+            "is_zoomable": false,
+            "max_zoom_window_size": 843,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "colorfulness": 0,
+            "color":
+            {
+                "h": 357,
+                "l": 42,
+                "s": 38,
+                "percentage": 0.009672619047619048,
+                "population": 65
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "artwork_type_title": "Coverings and Hangings",
+            "artwork_type_id": 38,
+            "department_title": "Textiles",
+            "department_id": "PC-14",
+            "artist_id": 35845,
+            "artist_title": "William Morris",
+            "alt_artist_ids":
+            [
+                60146,
+                86315
+            ],
+            "artist_ids":
+            [
+                60146,
+                35845,
+                86315
+            ],
+            "artist_titles":
+            [
+                "Morris & Co.",
+                "William Morris",
+                "Merton Abbey Works"
+            ],
+            "category_ids":
+            [
+                "PC-14"
+            ],
+            "category_titles":
+            [
+                "Textiles"
+            ],
+            "artwork_catalogue_ids":
+            [],
+            "term_titles":
+            [
+                "block printing",
+                "cotton (textile)",
+                "textile",
+                "flowers",
+                "Arts and Crafts Movement",
+                "printing",
+                "ink",
+                "printed textile",
+                "cotton",
+                "19th century",
+                "foliage",
+                "british",
+                "20th Century",
+                "British Arts and Crafts Movement",
+                "plain weaving",
+                "natural dye"
+            ],
+            "style_id": "TM-7569",
+            "style_title": "Arts and Crafts Movement",
+            "alt_style_ids":
+            [
+                "TM-13203",
+                "TM-14197",
+                "TM-13130",
+                "TM-14957"
+            ],
+            "style_ids":
+            [
+                "TM-7569",
+                "TM-13203",
+                "TM-14197",
+                "TM-13130",
+                "TM-14957"
+            ],
+            "style_titles":
+            [
+                "Arts and Crafts Movement",
+                "19th century",
+                "british",
+                "20th Century",
+                "British Arts and Crafts Movement"
+            ],
+            "classification_id": "TM-69",
+            "classification_title": "textile",
+            "alt_classification_ids":
+            [
+                "TM-2352",
+                "TM-11728"
+            ],
+            "classification_ids":
+            [
+                "TM-69",
+                "TM-2352",
+                "TM-11728"
+            ],
+            "classification_titles":
+            [
+                "textile",
+                "printed textile",
+                "cotton"
+            ],
+            "subject_id": "TM-10482",
+            "alt_subject_ids":
+            [
+                "TM-11206"
+            ],
+            "subject_ids":
+            [
+                "TM-10482",
+                "TM-11206"
+            ],
+            "subject_titles":
+            [
+                "flowers",
+                "foliage"
+            ],
+            "material_id": "TM-2578",
+            "alt_material_ids":
+            [
+                "TM-2398",
+                "TM-3407"
+            ],
+            "material_ids":
+            [
+                "TM-2578",
+                "TM-2398",
+                "TM-3407"
+            ],
+            "material_titles":
+            [
+                "cotton (textile)",
+                "ink",
+                "natural dye"
+            ],
+            "technique_id": "TM-3942",
+            "alt_technique_ids":
+            [
+                "TM-3861",
+                "TM-10513"
+            ],
+            "technique_ids":
+            [
+                "TM-3942",
+                "TM-3861",
+                "TM-10513"
+            ],
+            "technique_titles":
+            [
+                "block printing",
+                "printing",
+                "plain weaving"
+            ],
+            "theme_titles":
+            [],
+            "image_id": "ce3bfe1c-676f-d040-ae06-c4a3e8b98472",
+            "alt_image_ids":
+            [
+                "1c64d230-e96b-50de-c3c0-c867e9c0b86f"
+            ],
+            "document_ids":
+            [],
+            "sound_ids":
+            [],
+            "video_ids":
+            [],
+            "text_ids":
+            [],
+            "section_ids":
+            [],
+            "section_titles":
+            [],
+            "site_ids":
+            [],
+            "suggest_autocomplete_all":
+            [
+                {
+                    "input":
+                    [
+                        "2018.827"
+                    ],
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input":
+                    [
+                        "Cray"
+                    ],
+                    "weight": 1,
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "last_updated_source": "2022-06-24T17:03:25-05:00",
+            "last_updated": "2022-06-26T10:06:54-05:00",
+            "timestamp": "2022-06-26T10:08:51-05:00"
+        },
+        {
+            "id": 249116,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/249116",
+            "is_boosted": false,
+            "title": "Wandle",
+            "alt_titles":
+            [],
+            "thumbnail":
+            {
+                "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAHlkXH5uXXdqYXFuYXBrZHhrYHhsZ31uZHxyY310YHhxZXlyZ393Zn52bH97bYRvXYJ0YYJ1YYF3YYF7bQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURICEoxhAkRyFBDhA904IwTQgAOw==",
+                "width": 7382,
+                "height": 8725,
+                "alt_text": "A work made of indigo discharge block printed cotton."
+            },
+            "main_reference_number": "2018.830",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 1884,
+            "date_end": 1884,
+            "date_display": "Design 1884, made 1917–40",
+            "date_qualifier_title": "Copyrighted",
+            "date_qualifier_id": 18,
+            "artist_display": "Designed by William Morris (English, 1834–1896)\nProduced by Morris & Co., London (English, 1875–1940) \nMerton Abbey, London (English, 1881–1940)",
+            "place_of_origin": "England",
+            "dimensions": "111.1 × 92.4 cm (43 3/4 × 36 3/8 in.)",
+            "medium_display": "Indigo discharge block printed cotton",
+            "inscriptions": "Selvedges: REGD MORRIS & COMPANY",
+            "credit_line": "Gift of Crab Tree Farm Foundation",
+            "publication_history": null,
+            "exhibition_history": "Art Institute of Chicago, <a href=\"https://www.artic.edu/exhibitions/9325\"> Morris and Company: The Business of Beauty</a>, Dec. 18, 2021–June 13, 2022, no cat.",
+            "provenance_text": "Haslam & Whiteway, London, by 2007; sold to Crab Tree Farm Foundation, Lake Bluff, IL, Sept. 6, 2007 [Crab Tree Farm Foundation catalog record; copy in curatorial file]; given to the Art Institute of Chicago, 2018.",
+            "publishing_verification_level": "Web Everything",
+            "internal_department_id": 4,
+            "fiscal_year": 2019,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": false,
+            "is_zoomable": false,
+            "max_zoom_window_size": 843,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "colorfulness": 0,
+            "color":
+            {
+                "h": 42,
+                "l": 42,
+                "s": 48,
+                "percentage": 0.0000978140120901224,
+                "population": 63
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "artwork_type_title": "Coverings and Hangings",
+            "artwork_type_id": 38,
+            "department_title": "Textiles",
+            "department_id": "PC-14",
+            "artist_id": 35845,
+            "artist_title": "William Morris",
+            "alt_artist_ids":
+            [
+                60146,
+                86315
+            ],
+            "artist_ids":
+            [
+                60146,
+                35845,
+                86315
+            ],
+            "artist_titles":
+            [
+                "Morris & Co.",
+                "William Morris",
+                "Merton Abbey Works"
+            ],
+            "category_ids":
+            [
+                "PC-14"
+            ],
+            "category_titles":
+            [
+                "Textiles"
+            ],
+            "artwork_catalogue_ids":
+            [],
+            "term_titles":
+            [
+                "textile",
+                "flowers",
+                "block printing",
+                "cotton (textile)",
+                "Arts and Crafts Movement",
+                "ribbon",
+                "floral motifs",
+                "printing",
+                "ink",
+                "indigo",
+                "printed textile",
+                "cotton",
+                "19th century",
+                "printed",
+                "british",
+                "20th Century",
+                "British Arts and Crafts Movement",
+                "plain weaving",
+                "natural dye"
+            ],
+            "style_id": "TM-7569",
+            "style_title": "Arts and Crafts Movement",
+            "alt_style_ids":
+            [
+                "TM-13203",
+                "TM-14197",
+                "TM-13130",
+                "TM-14957"
+            ],
+            "style_ids":
+            [
+                "TM-7569",
+                "TM-13203",
+                "TM-14197",
+                "TM-13130",
+                "TM-14957"
+            ],
+            "style_titles":
+            [
+                "Arts and Crafts Movement",
+                "19th century",
+                "british",
+                "20th Century",
+                "British Arts and Crafts Movement"
+            ],
+            "classification_id": "TM-69",
+            "classification_title": "textile",
+            "alt_classification_ids":
+            [
+                "TM-2352",
+                "TM-11728",
+                "TM-2316"
+            ],
+            "classification_ids":
+            [
+                "TM-69",
+                "TM-2352",
+                "TM-11728",
+                "TM-2316"
+            ],
+            "classification_titles":
+            [
+                "textile",
+                "printed textile",
+                "cotton",
+                "printed"
+            ],
+            "subject_id": "TM-10482",
+            "alt_subject_ids":
+            [
+                "TM-11890",
+                "TM-12631"
+            ],
+            "subject_ids":
+            [
+                "TM-10482",
+                "TM-11890",
+                "TM-12631"
+            ],
+            "subject_titles":
+            [
+                "flowers",
+                "ribbon",
+                "floral motifs"
+            ],
+            "material_id": "TM-2578",
+            "alt_material_ids":
+            [
+                "TM-2398",
+                "TM-3398",
+                "TM-3407"
+            ],
+            "material_ids":
+            [
+                "TM-2578",
+                "TM-2398",
+                "TM-3398",
+                "TM-3407"
+            ],
+            "material_titles":
+            [
+                "cotton (textile)",
+                "ink",
+                "indigo",
+                "natural dye"
+            ],
+            "technique_id": "TM-3942",
+            "alt_technique_ids":
+            [
+                "TM-3861",
+                "TM-10513"
+            ],
+            "technique_ids":
+            [
+                "TM-3942",
+                "TM-3861",
+                "TM-10513"
+            ],
+            "technique_titles":
+            [
+                "block printing",
+                "printing",
+                "plain weaving"
+            ],
+            "theme_titles":
+            [],
+            "image_id": "5a13c1dd-925a-5972-59c9-6da086e8249d",
+            "alt_image_ids":
+            [
+                "b01db7cf-b141-1ddf-25c6-1355a5743732"
+            ],
+            "document_ids":
+            [],
+            "sound_ids":
+            [],
+            "video_ids":
+            [],
+            "text_ids":
+            [],
+            "section_ids":
+            [],
+            "section_titles":
+            [],
+            "site_ids":
+            [],
+            "suggest_autocomplete_all":
+            [
+                {
+                    "input":
+                    [
+                        "2018.830"
+                    ],
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input":
+                    [
+                        "Wandle"
+                    ],
+                    "weight": 1,
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "last_updated_source": "2022-06-24T17:06:12-05:00",
+            "last_updated": "2022-06-26T10:06:53-05:00",
+            "timestamp": "2022-06-26T10:08:51-05:00"
+        },
+        {
+            "id": 249115,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/249115",
+            "is_boosted": false,
+            "title": "Wey",
+            "alt_titles":
+            [],
+            "thumbnail":
+            {
+                "lqip": "data:image/gif;base64,R0lGODlhBwAFAPQAAG50eXF2eXB2enF2enJ3enJ4e3N4e3R5e3N4fHR5fHV5fHR6fXV6fXZ7fXV6fnd7fnZ7f3h8fnl8fnd8gHh8gHl9gXl+gXp+gXt/gXx/gHx/gX2AgX6BgwAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAUdoDYYCqJsCoAEAvFIThIcSxVBS9EwVzZZDwqGEwIAOw==",
+                "width": 10018,
+                "height": 7117,
+                "alt_text": "A work made of indigo discharge block printed cotton."
+            },
+            "main_reference_number": "2018.829",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 1883,
+            "date_end": 1883,
+            "date_display": "Design c. 1883, made 1883–1917",
+            "date_qualifier_title": "Copyrighted",
+            "date_qualifier_id": 18,
+            "artist_display": "Designed by William Morris (English, 1834–1896)\nProduced by Morris & Co., London (English, 1875–1940)\nMerton Abbey, London (English, 1881–1940)",
+            "place_of_origin": "England",
+            "dimensions": "177.8 × 121.9 cm (70 × 48 in.)",
+            "medium_display": "Indigo discharge block printed cotton",
+            "inscriptions": "Selvage: [4]49 OXFORD STREET",
+            "credit_line": "Gift of Crab Tree Farm Foundation",
+            "publication_history": null,
+            "exhibition_history": "Art Institute of Chicago, <a href=\"https://www.artic.edu/exhibitions/9325\"> Morris and Company: The Business of Beauty</a>, Dec. 18, 2021–June 13, 2022, no cat.",
+            "provenance_text": "Haslam & Whiteway, London, by 2007; sold to Crab Tree Farm Foundation, Lake Bluff, IL, Sept. 6, 2007 [Crab Tree Farm Foundation catalog record; copy in curatorial file]; given to the Art Institute of Chicago, 2018.",
+            "publishing_verification_level": "Web Everything",
+            "internal_department_id": 4,
+            "fiscal_year": 2019,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": false,
+            "is_zoomable": false,
+            "max_zoom_window_size": 843,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "colorfulness": 0,
+            "color":
+            {
+                "h": 215,
+                "l": 31,
+                "s": 20,
+                "percentage": 0.0037490476956007776,
+                "population": 2673
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "artwork_type_title": "Coverings and Hangings",
+            "artwork_type_id": 38,
+            "department_title": "Textiles",
+            "department_id": "PC-14",
+            "artist_id": 35845,
+            "artist_title": "William Morris",
+            "alt_artist_ids":
+            [
+                60146,
+                86315
+            ],
+            "artist_ids":
+            [
+                60146,
+                35845,
+                86315
+            ],
+            "artist_titles":
+            [
+                "Morris & Co.",
+                "William Morris",
+                "Merton Abbey Works"
+            ],
+            "category_ids":
+            [
+                "PC-14"
+            ],
+            "category_titles":
+            [
+                "Textiles"
+            ],
+            "artwork_catalogue_ids":
+            [],
+            "term_titles":
+            [
+                "flowers",
+                "cotton (textile)",
+                "block printing",
+                "textile",
+                "Arts and Crafts Movement",
+                "foliage",
+                "printing",
+                "indigo",
+                "cotton",
+                "printed textile",
+                "19th century",
+                "british",
+                "20th Century",
+                "British Arts and Crafts Movement",
+                "plain weaving",
+                "natural dye"
+            ],
+            "style_id": "TM-7569",
+            "style_title": "Arts and Crafts Movement",
+            "alt_style_ids":
+            [
+                "TM-13203",
+                "TM-14197",
+                "TM-13130",
+                "TM-14957"
+            ],
+            "style_ids":
+            [
+                "TM-7569",
+                "TM-13203",
+                "TM-14197",
+                "TM-13130",
+                "TM-14957"
+            ],
+            "style_titles":
+            [
+                "Arts and Crafts Movement",
+                "19th century",
+                "british",
+                "20th Century",
+                "British Arts and Crafts Movement"
+            ],
+            "classification_id": "TM-69",
+            "classification_title": "textile",
+            "alt_classification_ids":
+            [
+                "TM-11728",
+                "TM-2352"
+            ],
+            "classification_ids":
+            [
+                "TM-69",
+                "TM-11728",
+                "TM-2352"
+            ],
+            "classification_titles":
+            [
+                "textile",
+                "cotton",
+                "printed textile"
+            ],
+            "subject_id": "TM-10482",
+            "alt_subject_ids":
+            [
+                "TM-11206"
+            ],
+            "subject_ids":
+            [
+                "TM-10482",
+                "TM-11206"
+            ],
+            "subject_titles":
+            [
+                "flowers",
+                "foliage"
+            ],
+            "material_id": "TM-2578",
+            "alt_material_ids":
+            [
+                "TM-3398",
+                "TM-3407"
+            ],
+            "material_ids":
+            [
+                "TM-2578",
+                "TM-3398",
+                "TM-3407"
+            ],
+            "material_titles":
+            [
+                "cotton (textile)",
+                "indigo",
+                "natural dye"
+            ],
+            "technique_id": "TM-3942",
+            "alt_technique_ids":
+            [
+                "TM-3861",
+                "TM-10513"
+            ],
+            "technique_ids":
+            [
+                "TM-3942",
+                "TM-3861",
+                "TM-10513"
+            ],
+            "technique_titles":
+            [
+                "block printing",
+                "printing",
+                "plain weaving"
+            ],
+            "theme_titles":
+            [],
+            "image_id": "3ce4c749-f791-cb14-65d7-8dfa93ac2e5d",
+            "alt_image_ids":
+            [
+                "b43d543c-d7f2-ceb6-2fbd-d08ab78fce06",
+                "a3ae9353-9630-36eb-1fc8-768ce96aec35"
+            ],
+            "document_ids":
+            [],
+            "sound_ids":
+            [],
+            "video_ids":
+            [],
+            "text_ids":
+            [],
+            "section_ids":
+            [],
+            "section_titles":
+            [],
+            "site_ids":
+            [],
+            "suggest_autocomplete_all":
+            [
+                {
+                    "input":
+                    [
+                        "2018.829"
+                    ],
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input":
+                    [
+                        "Wey"
+                    ],
+                    "weight": 1,
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "last_updated_source": "2022-06-24T17:05:47-05:00",
+            "last_updated": "2022-06-26T10:06:53-05:00",
+            "timestamp": "2022-06-26T10:08:51-05:00"
+        },
+        {
+            "id": 249124,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/249124",
+            "is_boosted": false,
+            "title": "Evenlode",
+            "alt_titles":
+            [],
+            "thumbnail":
+            {
+                "lqip": "data:image/gif;base64,R0lGODlhAQAFAPIAAFNQT1VTUlhWU1lWVFxZVQAAAAAAAAAAACH5BAAAAAAALAAAAAABAAUAAAMECEMSCQA7",
+                "width": 3121,
+                "height": 10522,
+                "alt_text": "A work made of indigo discharged block printed cotton."
+            },
+            "main_reference_number": "2018.835",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 1883,
+            "date_end": 1883,
+            "date_display": "Design 1883, made 1917–40",
+            "date_qualifier_title": "Copyrighted",
+            "date_qualifier_id": 18,
+            "artist_display": "Designed by William Morris (English, 1834–1896)\nProduced by Morris & Co., London (English, 1875–1940)\nMerton Abbey, London (English, 1881–1940)",
+            "place_of_origin": "England",
+            "dimensions": "363.5 × 97.8 cm (143 1/8 × 38 1/2 in.)\n\nRepeat: 52 × 44 1/2 cm (20 1/2 × 17 1/2 in.)\nOn right selvedge, distance from end of \"N\" to end of \"N\": 193 cm (76 in.)",
+            "medium_display": "Indigo discharged block printed cotton",
+            "inscriptions": "Selvage: REGD MORRIS & COMPANY",
+            "credit_line": "Gift of Crab Tree Farm Foundation",
+            "publication_history": null,
+            "exhibition_history": "Art Institute of Chicago, <a href=\"https://www.artic.edu/exhibitions/9325\"> Morris and Company: The Business of Beauty</a>, Dec. 18, 2021–June 13, 2022, no cat.",
+            "provenance_text": "Paul Reeves [Paul Reeves: Furniture and Artefacts 1860-1960], London, by 1998; sold to John H. Bryan, Lake Bluff, IL, 11 Oct. 1998 [This and the following from Crab Tree Farm Foundation catalog records in curatorial file]; given to the Crab Tree Farm Foundation, Lake Bluff, IL, 2012; given to the Art Institute of Chicago, 2018.",
+            "publishing_verification_level": "Web Everything",
+            "internal_department_id": 4,
+            "fiscal_year": 2019,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": false,
+            "is_zoomable": false,
+            "max_zoom_window_size": 843,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "colorfulness": 0,
+            "color":
+            {
+                "h": 43,
+                "l": 48,
+                "s": 25,
+                "percentage": 0.0006516609650392419,
+                "population": 214
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "artwork_type_title": "Coverings and Hangings",
+            "artwork_type_id": 38,
+            "department_title": "Textiles",
+            "department_id": "PC-14",
+            "artist_id": 35845,
+            "artist_title": "William Morris",
+            "alt_artist_ids":
+            [
+                60146,
+                86315
+            ],
+            "artist_ids":
+            [
+                60146,
+                35845,
+                86315
+            ],
+            "artist_titles":
+            [
+                "Morris & Co.",
+                "William Morris",
+                "Merton Abbey Works"
+            ],
+            "category_ids":
+            [
+                "PC-14"
+            ],
+            "category_titles":
+            [
+                "Textiles"
+            ],
+            "artwork_catalogue_ids":
+            [],
+            "term_titles":
+            [
+                "floral motifs",
+                "textile",
+                "cotton (textile)",
+                "block printing",
+                "Arts and Crafts Movement",
+                "vines",
+                "foliage",
+                "flowers",
+                "printed textile",
+                "indigo",
+                "printing",
+                "british",
+                "19th century",
+                "20th Century",
+                "British Arts and Crafts Movement",
+                "plain weaving",
+                "natural dye"
+            ],
+            "style_id": "TM-7569",
+            "style_title": "Arts and Crafts Movement",
+            "alt_style_ids":
+            [
+                "TM-14197",
+                "TM-13203",
+                "TM-13130",
+                "TM-14957"
+            ],
+            "style_ids":
+            [
+                "TM-7569",
+                "TM-14197",
+                "TM-13203",
+                "TM-13130",
+                "TM-14957"
+            ],
+            "style_titles":
+            [
+                "Arts and Crafts Movement",
+                "british",
+                "19th century",
+                "20th Century",
+                "British Arts and Crafts Movement"
+            ],
+            "classification_id": "TM-69",
+            "classification_title": "textile",
+            "alt_classification_ids":
+            [
+                "TM-2352"
+            ],
+            "classification_ids":
+            [
+                "TM-69",
+                "TM-2352"
+            ],
+            "classification_titles":
+            [
+                "textile",
+                "printed textile"
+            ],
+            "subject_id": "TM-12631",
+            "alt_subject_ids":
+            [
+                "TM-11863",
+                "TM-11206",
+                "TM-10482"
+            ],
+            "subject_ids":
+            [
+                "TM-12631",
+                "TM-11863",
+                "TM-11206",
+                "TM-10482"
+            ],
+            "subject_titles":
+            [
+                "floral motifs",
+                "vines",
+                "foliage",
+                "flowers"
+            ],
+            "material_id": "TM-2578",
+            "alt_material_ids":
+            [
+                "TM-3398",
+                "TM-3407"
+            ],
+            "material_ids":
+            [
+                "TM-2578",
+                "TM-3398",
+                "TM-3407"
+            ],
+            "material_titles":
+            [
+                "cotton (textile)",
+                "indigo",
+                "natural dye"
+            ],
+            "technique_id": "TM-3942",
+            "alt_technique_ids":
+            [
+                "TM-3861",
+                "TM-10513"
+            ],
+            "technique_ids":
+            [
+                "TM-3942",
+                "TM-3861",
+                "TM-10513"
+            ],
+            "technique_titles":
+            [
+                "block printing",
+                "printing",
+                "plain weaving"
+            ],
+            "theme_titles":
+            [],
+            "image_id": "f90ae895-b585-f695-0c9a-53ef81197029",
+            "alt_image_ids":
+            [
+                "4b9856c3-b114-4cfe-5bbc-76df11e05060",
+                "bfb97957-5bf4-a171-173e-75946e65b381"
+            ],
+            "document_ids":
+            [],
+            "sound_ids":
+            [],
+            "video_ids":
+            [],
+            "text_ids":
+            [],
+            "section_ids":
+            [],
+            "section_titles":
+            [],
+            "site_ids":
+            [],
+            "suggest_autocomplete_all":
+            [
+                {
+                    "input":
+                    [
+                        "2018.835"
+                    ],
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input":
+                    [
+                        "Evenlode"
+                    ],
+                    "weight": 1,
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "last_updated_source": "2022-06-24T17:06:47-05:00",
+            "last_updated": "2022-06-26T10:06:52-05:00",
+            "timestamp": "2022-06-26T10:08:51-05:00"
+        },
+        {
+            "id": 47661,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/47661",
+            "is_boosted": false,
+            "title": "Cray",
+            "alt_titles":
+            [],
+            "thumbnail":
+            {
+                "lqip": "data:image/gif;base64,R0lGODlhAgAFAPMAAKSYkaeZkKeZkaiakqmbkqiclamdlauelqyelayelgAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAACAAUAAAQIsIBEzkDBiAgAOw==",
+                "width": 2595,
+                "height": 6502,
+                "alt_text": "A work made of cotton, plain weave, block printed."
+            },
+            "main_reference_number": "1974.419a",
+            "has_not_been_viewed_much": false,
+            "boost_rank": null,
+            "date_start": 1884,
+            "date_end": 1884,
+            "date_display": "Design 1884, made 1884–1917",
+            "date_qualifier_title": "Designed",
+            "date_qualifier_id": 2,
+            "artist_display": "Designed by William Morris (English, 1834–1896)\nProduced by Morris & Co., London (English, 1875–1940)\nMerton Abbey, London (English, 1881–1940)",
+            "place_of_origin": "England",
+            "dimensions": "279.7 × 97.8 cm (110 1/8 × 38 1/2 in.)\nRepeat: 94.5 × 45 cm (37 1/4 × 17 3/4 in.)",
+            "medium_display": "Cotton, plain weave, block printed",
+            "inscriptions": "Selvage: REGD Morris & Company, 449 Oxford Street, W.",
+            "credit_line": "Gift of Mrs. Charles F. Batchelder",
+            "publication_history": "The Art Institute of Chicago, \"Objects of Desire: Victorian Art at the Art Institute of Chicago,\" Museum Studies 31, 1 (2005): 84, cat. 17.\n\nJudith Barter, ed., Apostles of Beauty: Arts and Crafts from Britain to Chicago, exh. cat. (Chicago: Art Institute of Chicago, 2009), 21, 14, cat. 95.",
+            "exhibition_history": "Art Institute of Chicago, Agnes Allerton Gallery, \nSelected Textile Acquisitions since 1973, Dec. 15, 1977–Mar. 26, 1978.\n\nArt Institute of Chicago, Elizabeth F. Cheney and Agnes Allerton Textile Galleries, Revival and Reform: A Growing 19th Century Textile Collection, Nov. 25, 1998–Feb. 28, 1999.\n\nArt Institute of Chicago, Regenstein Hall, Apostles of Beauty: Arts & Crafts from Britain to Chicago, cat. 95, Nov. 7, 2009-Jan. 31, 2010.\n\nArt Institute of Chicago, Islamic Art, Gallery 50, Islamic Textile Rotation, July 26, 2017-Mar. 21, 2018.\n\nArt Institute of Chicago, <a href=\"https://www.artic.edu/exhibitions/9325\"> Morris and Company: The Business of Beauty</a>, Dec. 18, 2021–June 13, 2022, no cat.",
+            "provenance_text": "Martha Batchelder (Mrs. Charles F. Batchelder, born Martha Lee, b. 1906), Milton, MA [Incoming receipt RX9909 dated 11/05/1974 in curatorial file]; given to the Art Institute of Chicago, 1974.",
+            "publishing_verification_level": "Web Everything",
+            "internal_department_id": 4,
+            "fiscal_year": null,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": true,
+            "is_zoomable": true,
+            "max_zoom_window_size": -1,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "colorfulness": 27.1099,
+            "color":
+            {
+                "h": 353,
+                "l": 38,
+                "s": 69,
+                "percentage": 0.013423829037708042,
+                "population": 239
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "artwork_type_title": "Textile",
+            "artwork_type_id": 5,
+            "department_title": "Textiles",
+            "department_id": "PC-14",
+            "artist_id": 35845,
+            "artist_title": "William Morris",
+            "alt_artist_ids":
+            [
+                60146,
+                86315
+            ],
+            "artist_ids":
+            [
+                35845,
+                60146,
+                86315
+            ],
+            "artist_titles":
+            [
+                "William Morris",
+                "Morris & Co.",
+                "Merton Abbey Works"
+            ],
+            "category_ids":
+            [
+                "PC-14"
+            ],
+            "category_titles":
+            [
+                "Textiles"
+            ],
+            "artwork_catalogue_ids":
+            [],
+            "term_titles":
+            [
+                "cotton (textile)",
+                "plain weaving",
+                "Arts and Crafts Movement",
+                "textile",
+                "flowers",
+                "weaving - printed",
+                "block printing",
+                "british",
+                "19th century",
+                "20th Century",
+                "British Arts and Crafts Movement",
+                "floral",
+                "printed textile",
+                "natural dye"
+            ],
+            "style_id": "TM-7569",
+            "style_title": "Arts and Crafts Movement",
+            "alt_style_ids":
+            [
+                "TM-14197",
+                "TM-13203",
+                "TM-13130",
+                "TM-14957"
+            ],
+            "style_ids":
+            [
+                "TM-7569",
+                "TM-14197",
+                "TM-13203",
+                "TM-13130",
+                "TM-14957"
+            ],
+            "style_titles":
+            [
+                "Arts and Crafts Movement",
+                "british",
+                "19th century",
+                "20th Century",
+                "British Arts and Crafts Movement"
+            ],
+            "classification_id": "TM-69",
+            "classification_title": "textile",
+            "alt_classification_ids":
+            [
+                "TM-353",
+                "TM-2352"
+            ],
+            "classification_ids":
+            [
+                "TM-69",
+                "TM-353",
+                "TM-2352"
+            ],
+            "classification_titles":
+            [
+                "textile",
+                "weaving - printed",
+                "printed textile"
+            ],
+            "subject_id": "TM-10482",
+            "alt_subject_ids":
+            [
+                "TM-12217"
+            ],
+            "subject_ids":
+            [
+                "TM-10482",
+                "TM-12217"
+            ],
+            "subject_titles":
+            [
+                "flowers",
+                "floral"
+            ],
+            "material_id": "TM-2578",
+            "alt_material_ids":
+            [
+                "TM-3407"
+            ],
+            "material_ids":
+            [
+                "TM-2578",
+                "TM-3407"
+            ],
+            "material_titles":
+            [
+                "cotton (textile)",
+                "natural dye"
+            ],
+            "technique_id": "TM-10513",
+            "alt_technique_ids":
+            [
+                "TM-3942"
+            ],
+            "technique_ids":
+            [
+                "TM-10513",
+                "TM-3942"
+            ],
+            "technique_titles":
+            [
+                "plain weaving",
+                "block printing"
+            ],
+            "theme_titles":
+            [],
+            "image_id": "8adeafb8-141d-6ad0-3356-5479dd0a6254",
+            "alt_image_ids":
+            [
+                "c3dfadbb-74cf-2bed-70a5-01570161e73a"
+            ],
+            "document_ids":
+            [],
+            "sound_ids":
+            [],
+            "video_ids":
+            [],
+            "text_ids":
+            [],
+            "section_ids":
+            [],
+            "section_titles":
+            [],
+            "site_ids":
+            [],
+            "suggest_autocomplete_all":
+            [
+                {
+                    "input":
+                    [
+                        "1974.419a"
+                    ],
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input":
+                    [
+                        "Cray"
+                    ],
+                    "weight": 621,
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "last_updated_source": "2022-06-24T17:13:14-05:00",
+            "last_updated": "2022-06-26T10:06:51-05:00",
+            "timestamp": "2022-06-26T10:08:51-05:00"
+        },
+        {
+            "id": 74514,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/74514",
+            "is_boosted": false,
+            "title": "Lotus",
+            "alt_titles":
+            [],
+            "thumbnail": null,
+            "main_reference_number": "1918.298",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 1888,
+            "date_end": 1888,
+            "date_display": "Design by 1888, made 1888",
+            "date_qualifier_title": "Designed",
+            "date_qualifier_id": 2,
+            "artist_display": "Design attributed to May Morris (English, 1862–1938)\nProduced by Morris & Co., London (English, 1875–1940)\nEmbroidered by the Decorative Arts Society, Chicago (American, founded 1877)",
+            "place_of_origin": "England",
+            "dimensions": "Overall: 263.9 × 120.9 cm (103 7/8 × 47 5/8 in.)\nEmbroidery: 257.2 x 113 cm (101 1/4 x 44 1/2 in.)",
+            "medium_display": "Silk, warp-float faced twill weave; embroidered in satin and stem stitches",
+            "inscriptions": null,
+            "credit_line": "Gift of Mrs. John J. Glessner",
+            "publication_history": null,
+            "exhibition_history": "Art Institute of Chicago, Agnes Allerton Gallery, A Selection of Fabrics from the 1880s–1940s from the Permanent Collection, Nov. 13, 1982–Feb. 15, 1983.\n\nArt Institute of Chicago, <a href=\"https://www.artic.edu/exhibitions/9325\"> Morris and Company: The Business of Beauty</a>, Dec. 18, 2021–June 13, 2022, no cat.",
+            "provenance_text": "Frances Glessner (Mrs. John J. Glessner, born Sarah Frances Macbeth, 1848-1932), and John J. Glessner, Chicago,Ill., from around 1888 [according to correspondence from William Tyre dated May 18, 2011 in curatorial file and Mrs. Glessner’s personal dairy this was one of four 'curtains' received by her on Nov. 17, 1888; they were installed in east doors of the east doors of the parlor at Glessner House, Prairie Street, Chicago; photographed c. 1890 in situ; gift recorded in Day Book 8, p. 150]; given to the Art Institute of Chicago, 1918.",
+            "publishing_verification_level": "Web Everything",
+            "internal_department_id": 4,
+            "fiscal_year": null,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": true,
+            "is_zoomable": true,
+            "max_zoom_window_size": -1,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "colorfulness": null,
+            "color": null,
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "artwork_type_title": "Textile",
+            "artwork_type_id": 5,
+            "department_title": "Textiles",
+            "department_id": "PC-14",
+            "artist_id": 65385,
+            "artist_title": "May Morris",
+            "alt_artist_ids":
+            [
+                60146,
+                2
+            ],
+            "artist_ids":
+            [
+                65385,
+                60146,
+                2
+            ],
+            "artist_titles":
+            [
+                "May Morris",
+                "Morris & Co.",
+                "Antiquarian Society"
+            ],
+            "category_ids":
+            [
+                "PC-14"
+            ],
+            "category_titles":
+            [
+                "Textiles"
+            ],
+            "artwork_catalogue_ids":
+            [],
+            "term_titles":
+            [
+                "Arts and Crafts Movement",
+                "silk (textile)",
+                "embroidering",
+                "textile",
+                "floral",
+                "needlework (visual works)",
+                "twill weaving",
+                "british",
+                "19th century",
+                "British Arts and Crafts Movement",
+                "lotus",
+                "natural dye"
+            ],
+            "style_id": "TM-7569",
+            "style_title": "Arts and Crafts Movement",
+            "alt_style_ids":
+            [
+                "TM-14197",
+                "TM-13203",
+                "TM-14957"
+            ],
+            "style_ids":
+            [
+                "TM-7569",
+                "TM-14197",
+                "TM-13203",
+                "TM-14957"
+            ],
+            "style_titles":
+            [
+                "Arts and Crafts Movement",
+                "british",
+                "19th century",
+                "British Arts and Crafts Movement"
+            ],
+            "classification_id": "TM-69",
+            "classification_title": "textile",
+            "alt_classification_ids":
+            [
+                "TM-83"
+            ],
+            "classification_ids":
+            [
+                "TM-69",
+                "TM-83"
+            ],
+            "classification_titles":
+            [
+                "textile",
+                "needlework (visual works)"
+            ],
+            "subject_id": "TM-12217",
+            "alt_subject_ids":
+            [
+                "TM-11917"
+            ],
+            "subject_ids":
+            [
+                "TM-12217",
+                "TM-11917"
+            ],
+            "subject_titles":
+            [
+                "floral",
+                "lotus"
+            ],
+            "material_id": "TM-2579",
+            "alt_material_ids":
+            [
+                "TM-3407"
+            ],
+            "material_ids":
+            [
+                "TM-2579",
+                "TM-3407"
+            ],
+            "material_titles":
+            [
+                "silk (textile)",
+                "natural dye"
+            ],
+            "technique_id": "TM-3914",
+            "alt_technique_ids":
+            [
+                "TM-10498"
+            ],
+            "technique_ids":
+            [
+                "TM-3914",
+                "TM-10498"
+            ],
+            "technique_titles":
+            [
+                "embroidering",
+                "twill weaving"
+            ],
+            "theme_titles":
+            [],
+            "image_id": null,
+            "alt_image_ids":
+            [
+                "9216cffb-78ec-0c05-85bf-6ae5869544d6",
+                "7ea7e610-9a94-1fd7-ab99-6d4b3f5c1bf7",
+                "541b4b7e-90a9-a37b-9c70-1c498c6e27aa",
+                "4fe059a9-473d-befe-ed4d-b38491ea97bf"
+            ],
+            "document_ids":
+            [],
+            "sound_ids":
+            [],
+            "video_ids":
+            [],
+            "text_ids":
+            [],
+            "section_ids":
+            [],
+            "section_titles":
+            [],
+            "site_ids":
+            [],
+            "suggest_autocomplete_all":
+            [
+                {
+                    "input":
+                    [
+                        "1918.298"
+                    ],
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input":
+                    [
+                        "Lotus"
+                    ],
+                    "weight": 72,
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "last_updated_source": "2022-06-24T17:17:48-05:00",
+            "last_updated": "2022-06-26T10:06:50-05:00",
+            "timestamp": "2022-06-26T10:08:51-05:00"
+        },
+        {
+            "id": 48983,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/48983",
+            "is_boosted": false,
+            "title": "Fragment of Velvet",
+            "alt_titles":
+            [],
+            "thumbnail":
+            {
+                "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAHwzLIUvKZgsKoY1LooxK4kyK44xLIw0LJEyLJ4zLp8zLps2Lp82L4s6MZgyMJs6MJ84Npk6OKQyLKw2MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYGQEA5QsiMM8hCBNClAcTQgAOw==",
+                "width": 1734,
+                "height": 2250,
+                "alt_text": "A work made of silk and gilt-metal-strip-wrapped silk, warp-float faced 4:1 satin weave with supplementary brocading wefts bound by main warps in weft-float faced 1:2 'z' twill interlacings and with supplementary pile warps forming cut voided velvet."
+            },
+            "main_reference_number": "1975.344",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 1401,
+            "date_end": 1450,
+            "date_display": "1401–50",
+            "date_qualifier_title": "Made",
+            "date_qualifier_id": 4,
+            "artist_display": "Probably Florence, Italy",
+            "place_of_origin": "Italy",
+            "dimensions": "65.8 × 49.9 cm (27 7/8 × 19 5/8 in.)\nWeft repeat: 19 cm (7 1/2 in.)",
+            "medium_display": "Silk and gilt-metal-strip-wrapped silk, warp-float faced 4:1 satin weave with supplementary brocading wefts bound by main warps in weft-float faced 1:2 'Z' twill interlacings and with supplementary pile warps forming cut voided velvet",
+            "inscriptions": null,
+            "credit_line": "Purchased with funds provided by Laurance H. Armour, Jr. and Margot B. Armour Family Foundation",
+            "publication_history": null,
+            "exhibition_history": "Art Institute of Chicago, <em>Selected Textile Acquisitions Since 1973</em>, Dec. 15, 1977–Mar. 26, 1978\n\nArt Institute of Chicago, Agnes Allerton Gallery, <em>Sumptuous Velvets from the Permanent Collection</em>, Mar. 1–June 1, 1980\n\nArt Institute of Chicago, Elizabeth F. Cheney and Agnes Allerton Textile Galleries,<em> Renaissance Velvets and Silks</em>, Dec. 18, 2002–Apr. 13, 2003.\n\nArt Institute of Chicago, <a href=\"https://www.artic.edu/exhibitions/9325\"> <em> Morris and Company: The Business of Beauty</em></a>, Dec. 18, 2021–June 13, 2022, no cat.",
+            "provenance_text": "Loewi-Robertson, Los Angeles, Calif., by 1975 [Incoming receipt RX10128 dated 3/27/1975 in curatorial file, Textiles Department]; sold to the Art Institute of Chicago, 1975.",
+            "publishing_verification_level": "Web Everything",
+            "internal_department_id": 4,
+            "fiscal_year": null,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": true,
+            "is_zoomable": true,
+            "max_zoom_window_size": -1,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "colorfulness": 73.1407,
+            "color":
+            {
+                "h": 1,
+                "l": 36,
+                "s": 63,
+                "percentage": 0.3128246165323202,
+                "population": 2885
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "artwork_type_title": "Textile",
+            "artwork_type_id": 5,
+            "department_title": "Textiles",
+            "department_id": "PC-14",
+            "artist_id": null,
+            "artist_title": null,
+            "alt_artist_ids":
+            [],
+            "artist_ids":
+            [],
+            "artist_titles":
+            [],
+            "category_ids":
+            [
+                "PC-14"
+            ],
+            "category_titles":
+            [
+                "Textiles"
+            ],
+            "artwork_catalogue_ids":
+            [],
+            "term_titles":
+            [
+                "textile",
+                "15th century",
+                "weaving - velvet",
+                "silk (fiber)"
+            ],
+            "style_id": "TM-14074",
+            "style_title": "15th century",
+            "alt_style_ids":
+            [],
+            "style_ids":
+            [
+                "TM-14074"
+            ],
+            "style_titles":
+            [
+                "15th century"
+            ],
+            "classification_id": "TM-69",
+            "classification_title": "textile",
+            "alt_classification_ids":
+            [
+                "TM-608"
+            ],
+            "classification_ids":
+            [
+                "TM-69",
+                "TM-608"
+            ],
+            "classification_titles":
+            [
+                "textile",
+                "weaving - velvet"
+            ],
+            "subject_id": null,
+            "alt_subject_ids":
+            [],
+            "subject_ids":
+            [],
+            "subject_titles":
+            [],
+            "material_id": null,
+            "alt_material_ids":
+            [
+                "TM-3688"
+            ],
+            "material_ids":
+            [
+                "TM-3688"
+            ],
+            "material_titles":
+            [
+                "silk (fiber)"
+            ],
+            "technique_id": null,
+            "alt_technique_ids":
+            [],
+            "technique_ids":
+            [],
+            "technique_titles":
+            [],
+            "theme_titles":
+            [],
+            "image_id": "448cd51d-becf-f8ae-75fe-754b5fd69da3",
+            "alt_image_ids":
+            [],
+            "document_ids":
+            [],
+            "sound_ids":
+            [],
+            "video_ids":
+            [],
+            "text_ids":
+            [],
+            "section_ids":
+            [],
+            "section_titles":
+            [],
+            "site_ids":
+            [],
+            "suggest_autocomplete_all":
+            [
+                {
+                    "input":
+                    [
+                        "1975.344"
+                    ],
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input":
+                    [
+                        "Fragment of Velvet"
+                    ],
+                    "weight": 34,
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "last_updated_source": "2022-06-24T17:14:37-05:00",
+            "last_updated": "2022-06-26T10:06:50-05:00",
+            "timestamp": "2022-06-26T10:08:51-05:00"
+        },
+        {
+            "id": 249070,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/249070",
+            "is_boosted": false,
+            "title": "Sunflower",
+            "alt_titles":
+            [],
+            "thumbnail":
+            {
+                "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAOfLkenNkurPlOrPlejOlujOl+nPl+fOmOnPmOjPm+vQlevQmOvRmezSme3Tme3Smu3TmuzTm+3Tm+rSnu3TnOzTnubQoevUo+3VoO7Voe3Vo+nUpe/Ype/ZperWquvXq+nZugAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwAmnw9FcQAQFxKEIWA4RCYVh8BQEj8YAsElUMJkF4hMEADs=",
+                "width": 4853,
+                "height": 6502,
+                "alt_text": "A work made of woodblock print in yellow and white inks on cream wove paper."
+            },
+            "main_reference_number": "Obj: 249070",
+            "has_not_been_viewed_much": true,
+            "boost_rank": null,
+            "date_start": 1879,
+            "date_end": 1879,
+            "date_display": "Design 1879",
+            "date_qualifier_title": "Copyrighted",
+            "date_qualifier_id": 18,
+            "artist_display": "Designed by William Morris (English, 1834–1896)\nProduced by Morris & Co., London (English, 1875–1940)\nPrinted at Jeffrey & Co., London (English, 1836–1930s)",
+            "place_of_origin": "England",
+            "dimensions": "756 x 559 mm (29 3/4 x 22 in.)",
+            "medium_display": "Woodblock print in yellow and white inks on cream wove paper",
+            "inscriptions": "Selvage: MORRI[S] & COMPANY; registration mark (partial) Jan. 27, parcel no. 7",
+            "credit_line": "Gift of Crab Tree Farm Foundation",
+            "publication_history": null,
+            "exhibition_history": "Art Institute of Chicago, <a href=\"https://www.artic.edu/exhibitions/9325\"> Morris and Company: The Business of Beauty</a>, Dec. 18, 2021–June 13, 2022, no cat.",
+            "provenance_text": "Arthur H. Verstage (1875-1969). Haslam & Whiteway, London, by 2000; Sold to Crab Tree Farm Foundation, Lake Bluff, IL, November 23, 2000 [Crab Tree Farm Foundation cataloging records, now in curatorial files]; given to the Art Institute of Chicago, 2018.",
+            "publishing_verification_level": "Web Everything",
+            "internal_department_id": 4,
+            "fiscal_year": null,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": false,
+            "is_zoomable": false,
+            "max_zoom_window_size": 843,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "colorfulness": 47.9556,
+            "color":
+            {
+                "h": 37,
+                "l": 66,
+                "s": 78,
+                "percentage": 0.27986957021916203,
+                "population": 1484
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "artwork_type_title": "Coverings and Hangings",
+            "artwork_type_id": 38,
+            "department_title": "Textiles",
+            "department_id": "PC-14",
+            "artist_id": 35845,
+            "artist_title": "William Morris",
+            "alt_artist_ids":
+            [
+                60146,
+                43017
+            ],
+            "artist_ids":
+            [
+                60146,
+                35845,
+                43017
+            ],
+            "artist_titles":
+            [
+                "Morris & Co.",
+                "William Morris",
+                "Jeffrey & Co."
+            ],
+            "category_ids":
+            [
+                "PC-14"
+            ],
+            "category_titles":
+            [
+                "Textiles"
+            ],
+            "artwork_catalogue_ids":
+            [],
+            "term_titles":
+            [
+                "wallpaper",
+                "Arts and Crafts Movement",
+                "wove paper",
+                "flowers",
+                "woodblock print",
+                "british",
+                "19th century",
+                "British Arts and Crafts Movement",
+                "ink",
+                "floral",
+                "block printing",
+                "natural dye"
+            ],
+            "style_id": "TM-7569",
+            "style_title": "Arts and Crafts Movement",
+            "alt_style_ids":
+            [
+                "TM-14197",
+                "TM-13203",
+                "TM-14957"
+            ],
+            "style_ids":
+            [
+                "TM-7569",
+                "TM-14197",
+                "TM-13203",
+                "TM-14957"
+            ],
+            "style_titles":
+            [
+                "Arts and Crafts Movement",
+                "british",
+                "19th century",
+                "British Arts and Crafts Movement"
+            ],
+            "classification_id": "TM-487",
+            "classification_title": "wallpaper",
+            "alt_classification_ids":
+            [],
+            "classification_ids":
+            [
+                "TM-487"
+            ],
+            "classification_titles":
+            [
+                "wallpaper"
+            ],
+            "subject_id": "TM-10482",
+            "alt_subject_ids":
+            [
+                "TM-12217"
+            ],
+            "subject_ids":
+            [
+                "TM-10482",
+                "TM-12217"
+            ],
+            "subject_titles":
+            [
+                "flowers",
+                "floral"
+            ],
+            "material_id": "TM-3074",
+            "alt_material_ids":
+            [
+                "TM-2398",
+                "TM-3407"
+            ],
+            "material_ids":
+            [
+                "TM-3074",
+                "TM-2398",
+                "TM-3407"
+            ],
+            "material_titles":
+            [
+                "wove paper",
+                "ink",
+                "natural dye"
+            ],
+            "technique_id": "TM-15199",
+            "alt_technique_ids":
+            [
+                "TM-3942"
+            ],
+            "technique_ids":
+            [
+                "TM-15199",
+                "TM-3942"
+            ],
+            "technique_titles":
+            [
+                "woodblock print",
+                "block printing"
+            ],
+            "theme_titles":
+            [],
+            "image_id": "b155f54a-bb02-20d2-fafe-1a325bca5fbd",
+            "alt_image_ids":
+            [],
+            "document_ids":
+            [],
+            "sound_ids":
+            [],
+            "video_ids":
+            [],
+            "text_ids":
+            [],
+            "section_ids":
+            [],
+            "section_titles":
+            [],
+            "site_ids":
+            [],
+            "suggest_autocomplete_all":
+            [
+                {
+                    "input":
+                    [
+                        "Obj: 249070"
+                    ],
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input":
+                    [
+                        "Sunflower"
+                    ],
+                    "weight": 1,
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "last_updated_source": "2022-06-24T17:17:55-05:00",
+            "last_updated": "2022-06-26T10:06:49-05:00",
+            "timestamp": "2022-06-26T10:08:51-05:00"
+        },
+        {
+            "id": 8961,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/8961",
+            "is_boosted": false,
+            "title": "Head of Arthur Jerome Eddy",
+            "alt_titles": null,
+            "thumbnail":
+            {
+                "lqip": "data:image/gif;base64,R0lGODlhBQAFAPQAAD8/O0REQUpKR1FRT35+fZmZl5uamZubmZ+fn6Kioqampaenp6ioqLW1tLW1tri4uLq6ur6+vr+/v9LS0tPT0wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAUAAAUVIIMQyQIhgfJMjtBM0gAMEWUUxxQCADs=",
+                "width": 2304,
+                "height": 2250,
+                "alt_text": "A work made of bronze."
+            },
+            "main_reference_number": "1931.502",
+            "has_not_been_viewed_much": false,
+            "boost_rank": null,
+            "date_start": 1898,
+            "date_end": 1898,
+            "date_display": "1898",
+            "date_qualifier_title": "",
+            "date_qualifier_id": null,
+            "artist_display": "Auguste Rodin\nFrench, 1840-1917",
+            "place_of_origin": "France",
+            "dimensions": "17 3/4 x 19 1/2 x 10 3/4 in. (45 x 49.5 x 27.3 cm)",
+            "medium_display": "Bronze",
+            "inscriptions": null,
+            "credit_line": "Arthur Jerome Eddy Memorial Collection",
+            "publication_history": null,
+            "exhibition_history": null,
+            "provenance_text": null,
+            "publishing_verification_level": "Web Basic",
+            "internal_department_id": 14,
+            "fiscal_year": 1930,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": true,
+            "is_zoomable": true,
+            "max_zoom_window_size": -1,
+            "copyright_notice": null,
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "colorfulness": 2.6154,
+            "color":
+            {
+                "h": 52,
+                "l": 65,
+                "s": 0,
+                "percentage": 0.28812794668119557,
+                "population": 1999
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": "<p>On loan to Sterling and Francine Clark Art Institute in Williamstown for <i>Rodin in the United States: Confronting the Modern</i></p>",
+            "gallery_title": null,
+            "gallery_id": null,
+            "artwork_type_title": "Sculpture",
+            "artwork_type_id": 3,
+            "department_title": "Painting and Sculpture of Europe",
+            "department_id": "PC-10",
+            "artist_id": 36418,
+            "artist_title": "Auguste Rodin",
+            "alt_artist_ids":
+            [],
+            "artist_ids":
+            [
+                36418
+            ],
+            "artist_titles":
+            [
+                "Auguste Rodin"
+            ],
+            "category_ids":
+            [
+                "PC-10"
+            ],
+            "category_titles":
+            [
+                "Painting and Sculpture of Europe"
+            ],
+            "artwork_catalogue_ids":
+            [
+                null
+            ],
+            "term_titles":
+            [
+                "bust/head",
+                "bronze",
+                "copper alloy",
+                "nonferrous metal",
+                "metal",
+                "inorganic material",
+                "sculpture"
+            ],
+            "style_id": null,
+            "style_title": null,
+            "alt_style_ids":
+            [],
+            "style_ids":
+            [],
+            "style_titles":
+            [],
+            "classification_id": "TM-347",
+            "classification_title": "bust/head",
+            "alt_classification_ids":
+            [
+                "TM-13"
+            ],
+            "classification_ids":
+            [
+                "TM-347",
+                "TM-13"
+            ],
+            "classification_titles":
+            [
+                "bust/head",
+                "sculpture"
+            ],
+            "subject_id": null,
+            "alt_subject_ids":
+            [],
+            "subject_ids":
+            [],
+            "subject_titles":
+            [],
+            "material_id": "TM-2430",
+            "alt_material_ids":
+            [
+                "TM-2694",
+                "TM-2683",
+                "TM-2568",
+                "TM-2600"
+            ],
+            "material_ids":
+            [
+                "TM-2430",
+                "TM-2694",
+                "TM-2683",
+                "TM-2568",
+                "TM-2600"
+            ],
+            "material_titles":
+            [
+                "bronze",
+                "copper alloy",
+                "nonferrous metal",
+                "metal",
+                "inorganic material"
+            ],
+            "technique_id": null,
+            "alt_technique_ids":
+            [],
+            "technique_ids":
+            [],
+            "technique_titles":
+            [],
+            "theme_titles":
+            [],
+            "image_id": "0377f007-2251-af1f-e997-ac44217b6651",
+            "alt_image_ids":
+            [],
+            "document_ids":
+            [],
+            "sound_ids":
+            [],
+            "video_ids":
+            [],
+            "text_ids":
+            [],
+            "section_ids":
+            [],
+            "section_titles":
+            [],
+            "site_ids":
+            [],
+            "suggest_autocomplete_all":
+            [
+                {
+                    "input":
+                    [
+                        "1931.502"
+                    ],
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input":
+                    [
+                        "Head of Arthur Jerome Eddy"
+                    ],
+                    "weight": 929,
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "last_updated_source": "2022-06-26T00:30:17-05:00",
+            "last_updated": "2022-06-26T10:06:48-05:00",
+            "timestamp": "2022-06-26T10:08:51-05:00"
+        },
+        {
+            "id": 656,
+            "api_model": "artworks",
+            "api_link": "https://api.artic.edu/api/v1/artworks/656",
+            "is_boosted": false,
+            "title": "Lion (One of a Pair, South Pedestal)",
+            "alt_titles": null,
+            "thumbnail":
+            {
+                "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAEhQT1ZoaFR5eGWIjHqFhHmPkHaVl4GBgo+WmYmanKy5rKOwt8m+vK/Cv93T0wAAACH5BAAAAAAALAAAAAADAAUAAAQLUC02jAOinUBSQREAOw==",
+                "width": 1500,
+                "height": 2250,
+                "alt_text": "A work made of bronze with green patina."
+            },
+            "main_reference_number": "1893.1a",
+            "has_not_been_viewed_much": false,
+            "boost_rank": null,
+            "date_start": 1893,
+            "date_end": 1893,
+            "date_display": "1893",
+            "date_qualifier_title": "Made",
+            "date_qualifier_id": 4,
+            "artist_display": "Edward Kemeys\nAmerican, 1843–1907\nAmerican Bronze Founding Company\nChicago",
+            "place_of_origin": "Chicago",
+            "dimensions": "261.7 × 114.2 × 287 cm (103 × 45 × 113 in.)",
+            "medium_display": "Bronze with green patina",
+            "inscriptions": "Lion on south side of AIC signed, left front: \"Kemeys / 1893\"",
+            "credit_line": "Gift of Mrs. Henry Field",
+            "publication_history": "Art Institute of Chicago, <em><a href=\"https://aic-web-cms-uploads.s3.us-east-2.amazonaws.com/aa94558c-aa50-436b-9035-456e2683b692/N530_.A3_1892-93.pdf\">Annual Report</a></em> (1893), 5.\n\nJane H. Clark, \"The Art Institute's Guardian Lions,\" <em>Art Institute of Chicago Museum Studies</em> 14, 1 (1988), 46–55, 102–103.\n\nSteve Johnson, \"Masks Up: Art Institute Lions, Daley Center Picasso Get Coronavirus Face Coverings,\" <em>The Chicago Tribune</em>, last modified Apr 30, 2020, <a href=\" https://www.chicagotribune.com/coronavirus/ct-ent-picasso-art-institute-lions-masks-coronavirus-0501-20200430-2deny3agqzeehlltube7gie6na-story.html\">https://www.chicagotribune.com/coronavirus/ct-ent-picasso-art-institute-lions-masks-coronavirus-0501-20200430-2deny3agqzeehlltube7gie6na-story.html</a> (ill.).\n\nMack Liederman, \"Art Institute Lions Being Removed for Cleaning, But Don't Worry—They'll Be Back,\" Block Club Chicago, June 10, 2022, <a href=\"https://blockclubchicago.org/2022/06/10/art-institute-lions-being-removed-for-cleaning-but-dont-worry-theyll-be-back\">https://blockclubchicago.org/2022/06/10/art-institute-lions-being-removed-for-cleaning-but-dont-worry-theyll-be-back</a> (ill).\n\nCarole Kuhrt Brewer, \"Art Institute of Chicago's iconic lions are taking a short leave from their Michigan Avenue watch,\" ChicagoNow.com, June 10, 2022, <a href=\"https://www.chicagonow.com/show-me-chicago/2022/06/art-institute-of-chicagos-iconic-lions-are-taking-a-short-leave-from-their-michigan-avenue-watch\">https://www.chicagonow.com/show-me-chicago/2022/06/art-institute-of-chicagos-iconic-lions-are-taking-a-short-leave-from-their-michigan-avenue-watch</a> (ill.).\n\nRoseanne Tellez, \"Art Institute lions to be deep-cleaned for first time in 21 years,\" Fox 32 Chicago, June 13, 2022, <a href=\"https://www.fox32chicago.com/news/art-institute-lions-to-be-cleaned-for-first-time-in-21-years\">https://www.fox32chicago.com/news/art-institute-lions-to-be-cleaned-for-first-time-in-21-years</a> (ill.).\n\nStefano Esposito, \"Art Institute's famous lions head out for a deep cleaning,\" <em>Chicago Sun-Times</em>, June 14, 2022, <a href=\"https://chicago.suntimes.com/entertainment-and-culture/2022/6/14/23167678/art-institute-chicago-lions-removed-deep-cleaning-preservation\">https://chicago.suntimes.com/entertainment-and-culture/2022/6/14/23167678/art-institute-chicago-lions-removed-deep-cleaning-preservation</a> (ill.).\n\n\"Art Institute lions, symbols of Chicago, get some needed TLC,\" <em>Chicago Sun-Times</em>, June 14, 2022, <a href=\"https://chicago.suntimes.com/2022/6/14/23167215/art-institute-lions-symbols-of-chicago-get-some-needed-care-editorial\">https://chicago.suntimes.com/2022/6/14/23167215/art-institute-lions-symbols-of-chicago-get-some-needed-care-editorial</a> (ill.).\n\n\"Chicago Art Institute's Iconic Lions Taken Down for Deep Cleaning, Officials Say,\" NBC Chicago, June 14, 2022, <a href=\"https://www.nbcchicago.com/news/local/chicago-art-institutes-iconic-lions-taken-down-for-deep-cleaning-officials-say/2857440/\">https://www.nbcchicago.com/news/local/chicago-art-institutes-iconic-lions-taken-down-for-deep-cleaning-officials-say/2857440</a> (ill.).\n\nJake Sheridan, \"Art Institute lions head for a steam and a wax, Field Museum dino goes to dumpster,\" <em>Chicago Tribune</em>, June 14, 2022, <a href=\"https://www.chicagotribune.com/news/breaking/ct-art-institute-lions-field-institute-dinosaur-down-20220614-2nkekpcun5exdea7hjcvgbk44q-story.html\">https://www.chicagotribune.com/news/breaking/ct-art-institute-lions-field-institute-dinosaur-down-20220614-2nkekpcun5exdea7hjcvgbk44q-story.html</a> (ill.).\n\nHannah Su, \"On Hiatus: The Art Institute of Chicago's iconic lions go on vacation,\" <em>The Architect's Newspaper</em>, June 15, 2022, <a href=\"https://www.archpaper.com/2022/06/the-art-institute-chicago-lions-vacation\">https://www.archpaper.com/2022/06/the-art-institute-chicago-lions-vacation</a> (ill.).\n\nKelly Bauer and Mack Liederman, \"Art Institute's Lions Spotted on the Highway After Being Taken Away To Be Cleaned,\" <em>Block Club Chicago</em>, June 15, 2022, <a href=\"https://blockclubchicago.org/2022/06/15/art-institutes-lions-spotted-on-the-highway-after-being-taken-away-to-be-cleaned\">https://blockclubchicago.org/2022/06/15/art-institutes-lions-spotted-on-the-highway-after-being-taken-away-to-be-cleaned</a> (ill.).",
+            "exhibition_history": null,
+            "provenance_text": null,
+            "publishing_verification_level": "Web Cataloged",
+            "internal_department_id": 21,
+            "fiscal_year": null,
+            "fiscal_year_deaccession": null,
+            "is_public_domain": false,
+            "is_zoomable": true,
+            "max_zoom_window_size": 1280,
+            "copyright_notice": "® The Art Institute of Chicago",
+            "has_multimedia_resources": false,
+            "has_educational_resources": false,
+            "colorfulness": 29.4063,
+            "color":
+            {
+                "h": 211,
+                "l": 42,
+                "s": 92,
+                "percentage": 0.00028132164910750707,
+                "population": 3
+            },
+            "latitude": null,
+            "longitude": null,
+            "latlon": null,
+            "is_on_view": false,
+            "on_loan_display": null,
+            "gallery_title": null,
+            "gallery_id": null,
+            "artwork_type_title": "Sculpture",
+            "artwork_type_id": 3,
+            "department_title": "Arts of the Americas",
+            "department_id": "PC-3",
+            "artist_id": 35237,
+            "artist_title": "Edward Kemeys",
+            "alt_artist_ids":
+            [],
+            "artist_ids":
+            [
+                35237
+            ],
+            "artist_titles":
+            [
+                "Edward Kemeys"
+            ],
+            "category_ids":
+            [
+                "PC-3"
+            ],
+            "category_titles":
+            [
+                "Arts of the Americas"
+            ],
+            "artwork_catalogue_ids":
+            [],
+            "term_titles":
+            [
+                "sculpture",
+                "bronze",
+                "Chicago",
+                "animals",
+                "copper alloy",
+                "nonferrous metal",
+                "metal",
+                "inorganic material",
+                "lions",
+                "american arts",
+                "cats"
+            ],
+            "style_id": null,
+            "style_title": null,
+            "alt_style_ids":
+            [],
+            "style_ids":
+            [],
+            "style_titles":
+            [],
+            "classification_id": "TM-13",
+            "classification_title": "sculpture",
+            "alt_classification_ids":
+            [
+                "TM-2191"
+            ],
+            "classification_ids":
+            [
+                "TM-13",
+                "TM-2191"
+            ],
+            "classification_titles":
+            [
+                "sculpture",
+                "american arts"
+            ],
+            "subject_id": "TM-12075",
+            "alt_subject_ids":
+            [
+                "TM-12218",
+                "TM-8850",
+                "TM-8806"
+            ],
+            "subject_ids":
+            [
+                "TM-12075",
+                "TM-12218",
+                "TM-8850",
+                "TM-8806"
+            ],
+            "subject_titles":
+            [
+                "Chicago",
+                "animals",
+                "lions",
+                "cats"
+            ],
+            "material_id": "TM-2430",
+            "alt_material_ids":
+            [
+                "TM-2694",
+                "TM-2683",
+                "TM-2568",
+                "TM-2600"
+            ],
+            "material_ids":
+            [
+                "TM-2430",
+                "TM-2694",
+                "TM-2683",
+                "TM-2568",
+                "TM-2600"
+            ],
+            "material_titles":
+            [
+                "bronze",
+                "copper alloy",
+                "nonferrous metal",
+                "metal",
+                "inorganic material"
+            ],
+            "technique_id": null,
+            "alt_technique_ids":
+            [],
+            "technique_ids":
+            [],
+            "technique_titles":
+            [],
+            "theme_titles":
+            [],
+            "image_id": "dea44a63-c84e-5ed0-a0af-f73b37c59ece",
+            "alt_image_ids":
+            [],
+            "document_ids":
+            [],
+            "sound_ids":
+            [],
+            "video_ids":
+            [],
+            "text_ids":
+            [],
+            "section_ids":
+            [],
+            "section_titles":
+            [],
+            "site_ids":
+            [],
+            "suggest_autocomplete_all":
+            [
+                {
+                    "input":
+                    [
+                        "1893.1a"
+                    ],
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "accession"
+                        ]
+                    }
+                },
+                {
+                    "input":
+                    [
+                        "Lion (One of a Pair, South Pedestal)"
+                    ],
+                    "weight": 776424,
+                    "contexts":
+                    {
+                        "groupings":
+                        [
+                            "title"
+                        ]
+                    }
+                }
+            ],
+            "last_updated_source": "2022-06-26T00:30:17-05:00",
+            "last_updated": "2022-06-26T10:06:48-05:00",
+            "timestamp": "2022-06-26T10:08:51-05:00"
+        }
+    ],
+    "info":
+    {
+        "license_text": "The data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+        "license_links":
+        [
+            "https://creativecommons.org/publicdomain/zero/1.0/",
+            "https://www.artic.edu/terms"
+        ],
+        "version": "1.4"
+    },
+    "config":
+    {
+        "iiif_url": "https://www.artic.edu/iiif/2",
+        "website_url": "http://www.artic.edu"
+    }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in ListDirector.handleEvent(_:):ListDirector.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UIImage(data: artwork.lqip)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in DefaultArtworkRepository.cachedOrRemoteArtworks(request:completion:):DefaultArtworkRepository.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "artworks.count">
+            </PersistentString>
+            <PersistentString
+               value = "self?.cachedArtworks?.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
