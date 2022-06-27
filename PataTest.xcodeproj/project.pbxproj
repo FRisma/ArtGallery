@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9DA4C999286A3BC6009146D7 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4C998286A3BC6009146D7 /* HistoryTableViewCell.swift */; };
+		9DA4C99B286A59D2009146D7 /* ArtistRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4C99A286A59D2009146D7 /* ArtistRepository.swift */; };
+		9DA4C99D286A5A1A009146D7 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4C99C286A5A1A009146D7 /* Artist.swift */; };
+		9DA4C99F286A5A44009146D7 /* ArtistDetailsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4C99E286A5A44009146D7 /* ArtistDetailsRequest.swift */; };
+		9DA4C9A1286A5A4D009146D7 /* ArtistDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4C9A0286A5A4D009146D7 /* ArtistDetailsResponse.swift */; };
+		9DA4C9A3286A5BBF009146D7 /* DefaultArtistRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4C9A2286A5BBF009146D7 /* DefaultArtistRepository.swift */; };
 		9DDA95032868A16F00ABBB46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA95022868A16F00ABBB46 /* AppDelegate.swift */; };
 		9DDA95052868A16F00ABBB46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA95042868A16F00ABBB46 /* SceneDelegate.swift */; };
 		9DDA95072868A16F00ABBB46 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA95062868A16F00ABBB46 /* ListViewController.swift */; };
@@ -30,8 +35,6 @@
 		9DDA95542868AE8A00ABBB46 /* artworks.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DDA95532868AE8A00ABBB46 /* artworks.json */; };
 		9DDA95572868AEE400ABBB46 /* ListArtworksRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA95562868AEE400ABBB46 /* ListArtworksRequest.swift */; };
 		9DDA95592868AEEE00ABBB46 /* ListArtworksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA95582868AEEE00ABBB46 /* ListArtworksResponse.swift */; };
-		9DDA955B2868AF1900ABBB46 /* ArtworkDetailRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA955A2868AF1900ABBB46 /* ArtworkDetailRequest.swift */; };
-		9DDA955D2868AF2500ABBB46 /* ArtworkDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA955C2868AF2500ABBB46 /* ArtworkDetailResponse.swift */; };
 		9DDA95612868BA9800ABBB46 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA95602868BA9800ABBB46 /* HistoryViewController.swift */; };
 		9DDA95652868C3F400ABBB46 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA95642868C3F400ABBB46 /* Artwork.swift */; };
 		9DDA95672868E4E500ABBB46 /* LastSeenCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA95662868E4E500ABBB46 /* LastSeenCardView.swift */; };
@@ -70,6 +73,11 @@
 
 /* Begin PBXFileReference section */
 		9DA4C998286A3BC6009146D7 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		9DA4C99A286A59D2009146D7 /* ArtistRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistRepository.swift; sourceTree = "<group>"; };
+		9DA4C99C286A5A1A009146D7 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		9DA4C99E286A5A44009146D7 /* ArtistDetailsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailsRequest.swift; sourceTree = "<group>"; };
+		9DA4C9A0286A5A4D009146D7 /* ArtistDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailsResponse.swift; sourceTree = "<group>"; };
+		9DA4C9A2286A5BBF009146D7 /* DefaultArtistRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultArtistRepository.swift; sourceTree = "<group>"; };
 		9DDA94FF2868A16F00ABBB46 /* PataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DDA95022868A16F00ABBB46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DDA95042868A16F00ABBB46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,8 +105,6 @@
 		9DDA95532868AE8A00ABBB46 /* artworks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = artworks.json; sourceTree = "<group>"; };
 		9DDA95562868AEE400ABBB46 /* ListArtworksRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListArtworksRequest.swift; sourceTree = "<group>"; };
 		9DDA95582868AEEE00ABBB46 /* ListArtworksResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListArtworksResponse.swift; sourceTree = "<group>"; };
-		9DDA955A2868AF1900ABBB46 /* ArtworkDetailRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkDetailRequest.swift; sourceTree = "<group>"; };
-		9DDA955C2868AF2500ABBB46 /* ArtworkDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkDetailResponse.swift; sourceTree = "<group>"; };
 		9DDA95602868BA9800ABBB46 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		9DDA95642868C3F400ABBB46 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		9DDA95662868E4E500ABBB46 /* LastSeenCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastSeenCardView.swift; sourceTree = "<group>"; };
@@ -249,6 +255,7 @@
 				9DDA956A2868E68B00ABBB46 /* ArtworkRepository.swift */,
 				9DDA95772869379F00ABBB46 /* HistoryRepository.swift */,
 				9DDA957D286A01DF00ABBB46 /* ImageRepository.swift */,
+				9DA4C99A286A59D2009146D7 /* ArtistRepository.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -259,6 +266,7 @@
 				9DDA95682868E67D00ABBB46 /* DefaultArtworkRepository.swift */,
 				9DDA95792869387800ABBB46 /* DefaultHistoryRepository.swift */,
 				9DDA957B2869FFD700ABBB46 /* ArticImageRepository.swift */,
+				9DA4C9A2286A5BBF009146D7 /* DefaultArtistRepository.swift */,
 			);
 			path = Infraestructure;
 			sourceTree = "<group>";
@@ -274,10 +282,10 @@
 		9DDA95552868AED300ABBB46 /* ReqResp */ = {
 			isa = PBXGroup;
 			children = (
-				9DDA955A2868AF1900ABBB46 /* ArtworkDetailRequest.swift */,
-				9DDA955C2868AF2500ABBB46 /* ArtworkDetailResponse.swift */,
 				9DDA95562868AEE400ABBB46 /* ListArtworksRequest.swift */,
 				9DDA95582868AEEE00ABBB46 /* ListArtworksResponse.swift */,
+				9DA4C99E286A5A44009146D7 /* ArtistDetailsRequest.swift */,
+				9DA4C9A0286A5A4D009146D7 /* ArtistDetailsResponse.swift */,
 			);
 			path = ReqResp;
 			sourceTree = "<group>";
@@ -298,6 +306,7 @@
 			children = (
 				9DDA95642868C3F400ABBB46 /* Artwork.swift */,
 				9DDA957F286A035600ABBB46 /* ArtworkUIModel.swift */,
+				9DA4C99C286A5A1A009146D7 /* Artist.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -484,6 +493,7 @@
 				9DDA95702868F71700ABBB46 /* ListItemCollectionViewCell.swift in Sources */,
 				9DDA95462868A96100ABBB46 /* DetailsDirector.swift in Sources */,
 				9DDA95422868A93D00ABBB46 /* ListView.swift in Sources */,
+				9DA4C9A1286A5A4D009146D7 /* ArtistDetailsResponse.swift in Sources */,
 				9DDA9580286A035600ABBB46 /* ArtworkUIModel.swift in Sources */,
 				9DDA9587286A1C1A00ABBB46 /* DetailsView.swift in Sources */,
 				9DDA95072868A16F00ABBB46 /* ListViewController.swift in Sources */,
@@ -491,23 +501,25 @@
 				9DDA95572868AEE400ABBB46 /* ListArtworksRequest.swift in Sources */,
 				9DDA9589286A347600ABBB46 /* HistoryDirector.swift in Sources */,
 				9DDA95732868FA3600ABBB46 /* ListCoordinator.swift in Sources */,
+				9DA4C99D286A5A1A009146D7 /* Artist.swift in Sources */,
 				9DDA95032868A16F00ABBB46 /* AppDelegate.swift in Sources */,
 				9DDA954C2868AB3200ABBB46 /* MainDependencyContainer.swift in Sources */,
 				9DDA95052868A16F00ABBB46 /* SceneDelegate.swift in Sources */,
 				9DDA953E2868A7AD00ABBB46 /* MainTabBarController.swift in Sources */,
 				9DDA95652868C3F400ABBB46 /* Artwork.swift in Sources */,
 				9DDA957A2869387800ABBB46 /* DefaultHistoryRepository.swift in Sources */,
-				9DDA955D2868AF2500ABBB46 /* ArtworkDetailResponse.swift in Sources */,
-				9DDA955B2868AF1900ABBB46 /* ArtworkDetailRequest.swift in Sources */,
 				9DDA953C2868A62700ABBB46 /* DetailsViewController.swift in Sources */,
 				9DDA957C2869FFD700ABBB46 /* ArticImageRepository.swift in Sources */,
 				9DDA95442868A95600ABBB46 /* ListViewModelFactory.swift in Sources */,
+				9DA4C99F286A5A44009146D7 /* ArtistDetailsRequest.swift in Sources */,
 				9DA4C999286A3BC6009146D7 /* HistoryTableViewCell.swift in Sources */,
 				9DDA95612868BA9800ABBB46 /* HistoryViewController.swift in Sources */,
+				9DA4C99B286A59D2009146D7 /* ArtistRepository.swift in Sources */,
 				9DDA958C286A348700ABBB46 /* HistoryView.swift in Sources */,
 				9DDA954A2868A97F00ABBB46 /* DetailsViewModelFactory.swift in Sources */,
 				9DDA95672868E4E500ABBB46 /* LastSeenCardView.swift in Sources */,
 				9DDA95402868A93400ABBB46 /* ListDirector.swift in Sources */,
+				9DA4C9A3286A5BBF009146D7 /* DefaultArtistRepository.swift in Sources */,
 				9DDA95692868E67D00ABBB46 /* DefaultArtworkRepository.swift in Sources */,
 				9DDA957E286A01DF00ABBB46 /* ImageRepository.swift in Sources */,
 				9DDA9585286A14F800ABBB46 /* HistoryCoordinator.swift in Sources */,

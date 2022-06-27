@@ -37,7 +37,7 @@ public enum APICaller {
     private static func configureUrl(with request: HTTPRequest) -> (Result<URLRequest, Error>) {
         var components = URLComponents()
         components.scheme = request.scheme
-        components.host = request.customHost ?? request.host
+        components.host = request.host
         components.path = request.path
         components.queryItems = request.parameters
 
@@ -71,22 +71,10 @@ public enum APICaller {
                                 session: URLSession,
                                 completion: @escaping (Result<Data, Error>) -> Void) -> Cancellable {
         let task = session.dataTask(with: urlRequest) { data, response, error in
-//            var httpResponse: HTTPResponse?
-
-//            if let response = response as? HTTPURLResponse {
-//                httpResponse = HTTPResponse(request: request, response: response, body: data ?? Data())
-//            }
-
-//            if let responseError = error as NSError? {
-//                guard responseError.code != NSURLErrorCancelled else { return }
-//                let networkErrorCode: NetworkError.Code = responseError.code == -1009 ? .noInternetConnection : .encodeBodyFailed
-//                return completion(.failure(responseError)
-//            }
-
-//            guard let httpUrlResponse = response as? HTTPURLResponse else {
-//                return completion(.failure(NetworkError(code: .noData, request: request, response: httpResponse, underlyingError: nil)))
-//            }
-//
+            if let responseError = error {
+                return completion(.failure(responseError))
+            }
+                                  
             guard var data = data else {
                 return completion(.failure(NSError(domain: "com.frisma.pataTest", code: -3)))
             }

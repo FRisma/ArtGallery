@@ -13,7 +13,6 @@ public protocol HTTPRequest {
     var path: String { get }
     var body: HTTPBody { get }
     var parameters: [URLQueryItem]? { get }
-    var customHost: String? { get }
     var scheme: String { get }
     var host: String? { get }
 }

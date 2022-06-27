@@ -19,7 +19,6 @@ struct ListArtworkResquest: HTTPRequest {
             URLQueryItem(name: "fields", value: "id,title,artist_display,date_display,main_reference_number,artist_id,thumbnail,image_id")
         ]
     }
-    var customHost: String? = nil
     var method: HTTPMethod = .get
     var body: HTTPBody = EmptyBody()
     

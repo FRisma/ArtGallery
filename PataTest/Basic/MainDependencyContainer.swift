@@ -26,6 +26,12 @@ final class MainDependencyContainer {
     lazy var imageRepository: ImageRepository = {
         ArticImageRepository()
     }()
+    
+    // MARK: - ArtistRepositoryProvider
+    
+    lazy var artistRepository: ArtistRepository = {
+        DefaultArtistRepository()
+    }()
 }
 
 // MARK: - MainTabBarControllerFactory
@@ -100,3 +106,4 @@ extension MainDependencyContainer: HistoryDirectorFactory {
 extension MainDependencyContainer: ArtworkRepositoryProvider {}
 extension MainDependencyContainer: HistoryRepositoryProvider {}
 extension MainDependencyContainer: ImageRepositoryProvider {}
+extension MainDependencyContainer: ArtistRepositoryProvider {}

@@ -147,5 +147,5 @@ extension ListView: UICollectionViewDelegate, UICollectionViewDataSource, UIColl
 }
 
 private extension CGFloat {
-    static let lastSeenCardHeight: CGFloat = 65
+    static let lastSeenCardHeight: CGFloat = 70
 }

@@ -12,7 +12,7 @@ protocol DetailsDirectorFactory {
 }
 
 final class DetailsDirector {
-    typealias Dependencies = ArtworkRepositoryProvider & ImageRepositoryProvider
+    typealias Dependencies = ArtworkRepositoryProvider & ImageRepositoryProvider & ArtistRepositoryProvider
     private let dependencies: Dependencies
     
     enum Event {
@@ -22,7 +22,7 @@ final class DetailsDirector {
     
     enum State {
         case initial(ArtworkUIModel)
-        case didFetchExtraInfo([String])
+        case didFetchExtraInfo(Artist)
     }
     typealias StateUpdate = (State) -> Void
     var stateListener: StateUpdate
@@ -49,13 +49,14 @@ final class DetailsDirector {
     }
     
     private func fetchMoreInfo() {
-        dependencies.artworkRepository.fetchDetails(forArtIdentifier: artwork.id) { [weak self] result in
+        guard let artistId = artwork.artistId else { return }
+        dependencies.artistRepository.fetchArtistDetails(artistId) { [weak self] result in
             guard let self = self else { return }
             switch result {
-            case .success(let artwork):
-                self.stateListener(.didFetchExtraInfo(["Hola", "Franco"]))
+            case .success(let artist):
+                self.stateListener(.didFetchExtraInfo(artist))
             case .failure(let error):
-                break // TODO: @frisma - handle this
+                break // Do nothing
             }
         }
     }

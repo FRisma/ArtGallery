@@ -57,6 +57,7 @@ final class HistoryViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        self.tabBarController?.tabBar.isHidden = false
         director.handleEvent(.viewIsReady)
     }
     
@@ -74,7 +75,7 @@ final class HistoryViewController: UIViewController {
         case .initial(let artworks):
             historyView.viewModel = HistoryView.ViewModel(items: artworks)
         case .noRecords:
-            break // TODO: @frisma
+            showErrorView(message: "No records, please go to the List Tab, play around and then come back", action: nil)
         case .didSelectIem(let artwork):
             navigationDelegate?.didTapItem(artwork)
         }

@@ -33,7 +33,7 @@ final class LastSeenCardView: UIView {
     private let artistLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.numberOfLines = 0
+        label.numberOfLines = 2
         label.font = .systemFont(ofSize: 12)
         return label
     }()

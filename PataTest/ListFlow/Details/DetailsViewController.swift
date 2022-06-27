@@ -50,6 +50,8 @@ final class DetailsViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.isHidden = false
+        self.navigationController?.navigationBar.isTranslucent = true
+        self.tabBarController?.tabBar.isHidden = true
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -72,9 +74,13 @@ final class DetailsViewController: UIViewController {
             detailsView.viewModel = DetailsView.ViewModel(image: model.image,
                                                           title: model.title,
                                                           artist: model.artistDisplay,
-                                                          extraDetails: nil)
-        case .didFetchExtraInfo(let extraInfo):
-            break
+                                                          artistDetails: nil)
+        case .didFetchExtraInfo(let artistInfo):
+            guard let previousViewModel = detailsView.viewModel else { return }
+            detailsView.viewModel = DetailsView.ViewModel(image: previousViewModel.image,
+                                                          title: previousViewModel.title,
+                                                          artist: previousViewModel.artist,
+                                                          artistDetails: artistInfo)
         }
     }
 }
