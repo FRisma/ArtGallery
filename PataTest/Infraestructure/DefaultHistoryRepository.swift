@@ -32,6 +32,7 @@ extension DefaultHistoryRepository: HistoryRepository {
     }
     
     func append(artwork: Artwork) {
+        historyList.removeAll(where: { artwork.id == $0.id })
         historyList.append(artwork)
     }
 }

@@ -29,7 +29,6 @@ final class HistoryView: UIView {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.showsVerticalScrollIndicator = false
-        tableView.separatorStyle = .none
         tableView.register(HistoryTableViewCell.self, forCellReuseIdentifier: HistoryTableViewCell.cellId)
         return tableView
     }()

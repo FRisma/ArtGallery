@@ -41,7 +41,7 @@ final class HistoryDirector {
                 stateListener(.noRecords)
                 return
             }
-            stateListener(.initial(historicalRecords.map(map(artworkModelToUIModel:))))
+            stateListener(.initial(historicalRecords.reversed().map(map(artworkModelToUIModel:))))
         
         case .attempToSelectAHistoricalItemId(let artId):
             guard let artwork = dependencies.historyRepository.getArtwork(id: artId) else { return }

@@ -16,7 +16,7 @@ final class HistoryTableViewCell: UITableViewCell {
     private let titleLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.numberOfLines = 2
+        label.numberOfLines = 0
         return label
     }()
     
@@ -70,8 +70,8 @@ final class HistoryTableViewCell: UITableViewCell {
     
     private func setupCell() {
         contentView.addSubview(titleLabel)
-        contentView.addSubview(subtitleLabel)
         contentView.addSubview(dateLabel)
+        contentView.addSubview(subtitleLabel)
         contentView.addSubview(thumbnailImageView)
         
         contentView.backgroundColor = .systemGray6
@@ -81,21 +81,21 @@ final class HistoryTableViewCell: UITableViewCell {
         NSLayoutConstraint.activate([
             thumbnailImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
             thumbnailImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 16),
-            thumbnailImageView.heightAnchor.constraint(equalToConstant: 200),
-            thumbnailImageView.widthAnchor.constraint(equalToConstant: 200),
+            thumbnailImageView.heightAnchor.constraint(equalToConstant: 100),
+            thumbnailImageView.widthAnchor.constraint(equalToConstant: 100),
             
-            titleLabel.topAnchor.constraint(equalTo: thumbnailImageView.bottomAnchor, constant: 8),
-            titleLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16),
+            titleLabel.topAnchor.constraint(equalTo: thumbnailImageView.topAnchor, constant: 8),
+            titleLabel.leadingAnchor.constraint(equalTo: thumbnailImageView.trailingAnchor, constant: 8),
             titleLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -16),
             
-            subtitleLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 8),
-            subtitleLabel.leadingAnchor.constraint(equalTo: titleLabel.leadingAnchor),
-            subtitleLabel.trailingAnchor.constraint(equalTo: titleLabel.trailingAnchor),
-            
-            dateLabel.topAnchor.constraint(equalTo: subtitleLabel.bottomAnchor, constant: 4),
+            dateLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 4),
             dateLabel.leadingAnchor.constraint(equalTo: titleLabel.leadingAnchor),
             dateLabel.trailingAnchor.constraint(equalTo: titleLabel.trailingAnchor),
-            dateLabel.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -8)
+            
+            subtitleLabel.topAnchor.constraint(equalTo: thumbnailImageView.bottomAnchor, constant: 8),
+            subtitleLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 8),
+            subtitleLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -8),
+            subtitleLabel.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -8)
         ])
     }
 
