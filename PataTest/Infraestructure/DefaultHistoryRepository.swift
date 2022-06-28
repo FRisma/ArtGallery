@@ -32,7 +32,7 @@ extension DefaultHistoryRepository: HistoryRepository {
     }
     
     func getLastSeenArtwork() -> Artwork? {
-        print("getLastSeenArtwork")
+        print("FRISMA - Running getLastSeenArtwork from mainThread \(Thread.isMainThread)")
         do {
             let engine = try Realm()
             let result = engine.objects(Artwork.self).last
@@ -60,7 +60,7 @@ extension DefaultHistoryRepository: HistoryRepository {
     }
     
     func append(artwork: Artwork) {
-        print("FRISMA - Append")
+        print("FRISMA - Running append from mainThread \(Thread.isMainThread)")
         do {
             let engine = try Realm()
             try engine.write {

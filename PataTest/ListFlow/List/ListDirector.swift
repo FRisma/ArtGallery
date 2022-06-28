@@ -62,14 +62,9 @@ final class ListDirector {
             guard let self = self else { return }
             switch result {
             case .success(let artworks):
-                let lastSeenArtwork = self.dependencies.historyRepository.getLastSeenArtwork()
-                var lastSeenUIModel: ArtworkUIModel? = nil
-                if let lastSeenArtwork = lastSeenArtwork {
-                    lastSeenUIModel = self.map(artworkModelToUIModel: lastSeenArtwork)
-                }
-                
-                self.stateListener(.didFetchItems(items: artworks.map(self.map(artworkModelToUIModel:)),
-                                                  lastSeenItem: lastSeenUIModel))
+                let artworksWithImages = artworks.filter { $0.imageId != nil }
+                self.stateListener(.didFetchItems(items: artworksWithImages.map(self.map(artworkModelToUIModel:)),
+                                                  lastSeenItem: self.getLastSeenArtwork()))
             case .failure(let error):
                 self.stateListener(.error(error.localizedDescription))
             }
@@ -81,12 +76,18 @@ final class ListDirector {
             guard let self = self else { return }
             switch result {
             case .success(let artworks):
-                self.stateListener(.didFetchItems(items: artworks.map(self.map(artworkModelToUIModel:)),
-                                                  lastSeenItem: nil))
+                let artworksWithImages = artworks.filter { $0.imageId != nil }
+                self.stateListener(.didFetchItems(items: artworksWithImages.map(self.map(artworkModelToUIModel:)),
+                                                  lastSeenItem: self.getLastSeenArtwork()))
             case .failure(let error):
                 self.stateListener(.error(error.localizedDescription))
             }
         }
+    }
+    
+    private func getLastSeenArtwork() -> ArtworkUIModel? {
+        guard let lastSeenArtwork = self.dependencies.historyRepository.getLastSeenArtwork() else { return  nil }
+        return self.map(artworkModelToUIModel: lastSeenArtwork)
     }
     
     private func map(artworkModelToUIModel model: Artwork) -> ArtworkUIModel {

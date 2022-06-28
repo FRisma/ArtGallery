@@ -93,6 +93,8 @@ final class LastSeenCardView: UIView {
         
         if let image = viewModel.thumbnail {
             thumbnailImageView.setPataImage(image)
+        } else {
+            thumbnailImageView.image = nil
         }
     }
 }

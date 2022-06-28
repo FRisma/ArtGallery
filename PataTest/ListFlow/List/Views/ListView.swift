@@ -87,16 +87,31 @@ final class ListView: UIView {
         guard let viewModel = viewModel else { return }
         collectionView.reloadData()
         
-        if let lastSeenItem = viewModel.lastSeen {
-            showLastSeenCard(lastSeenItem)
+        if let lastSeenItem = viewModel.lastSeen  {
+            lastSeenCard.viewModel = LastSeenCardView.ViewModel(
+                title: lastSeenItem.title,
+                artist: lastSeenItem.artistDisplay,
+                thumbnail: lastSeenItem.image)
+            if lastSeenCard.isHidden == true {
+                lastSeenCard.isHidden = false
+                showLastSeenCard()
+            }
+        } else {
+            lastSeenCard.isHidden = true
+            hideLastSeenCard()
         }
     }
     
-    private func showLastSeenCard(_ artwork: ArtworkUIModel) {
-        lastSeenCard.viewModel = LastSeenCardView.ViewModel(title: artwork.title, artist: artwork.artistDisplay, thumbnail: artwork.image)
-        lastSeenCard.isHidden = false
+    private func showLastSeenCard() {
         lastSeenCardTopConstraint.constant = -.lastSeenCardHeight
-        UIView.animate(withDuration: 0.2) {
+        UIView.animate(withDuration: 0.3) {
+            self.layoutIfNeeded()
+        }
+    }
+    
+    private func hideLastSeenCard() {
+        lastSeenCardTopConstraint.constant = .zero
+        UIView.animate(withDuration: 0.3) {
             self.layoutIfNeeded()
         }
     }
