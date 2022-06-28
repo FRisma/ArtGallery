@@ -9,6 +9,7 @@ import Kingfisher
 import UIKit
 
 extension UIImageView {
+    @discardableResult
     public func setPataImage(_ pataImage: PataImage) -> DownloadTask? {
         switch pataImage {
         case .local(let name):
