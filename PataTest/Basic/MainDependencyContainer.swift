@@ -18,8 +18,8 @@ final class MainDependencyContainer {
     // MARK: - HistoryRepositoryProvider
     
     lazy var historyRepository: HistoryRepository = {
-        return DefaultNonPersistentHistoryRepository(dependencies: self)
-//        return DefaultHistoryRepository(dependencies: self)
+        return DefaultNonPersistentHistoryRepository()
+//        return DefaultHistoryRepository()
     }()
     
     // MARK: - ImageRepositoryProvider
@@ -33,14 +33,6 @@ final class MainDependencyContainer {
     lazy var artistRepository: ArtistRepository = {
         DefaultArtistRepository()
     }()
-}
-
-// MARK: - MainTabBarControllerFactory
-
-extension MainDependencyContainer: MainTabBarControllerFactory {
-    func makeMainTabBarController() -> MainTabBarController {
-        MainTabBarController(dependencies: self)
-    }
 }
 
 // MARK: - ListViewControllerFactory

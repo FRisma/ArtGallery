@@ -8,14 +8,7 @@
 import Foundation
 
 final class DefaultNonPersistentHistoryRepository {
-    typealias Dependencies = Any
-    private let dependencies: Dependencies
-    
     private var historyList: [Artwork] = []
-    
-    init(dependencies: Dependencies) {
-        self.dependencies = dependencies
-    }
 }
 
 extension DefaultNonPersistentHistoryRepository: HistoryRepository {

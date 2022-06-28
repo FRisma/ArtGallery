@@ -27,7 +27,6 @@
 		9DDA95352868A45900ABBB46 /* MainAppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA95342868A45900ABBB46 /* MainAppCoordinator.swift */; };
 		9DDA95382868A47F00ABBB46 /* PataCore in Frameworks */ = {isa = PBXBuildFile; productRef = 9DDA95372868A47F00ABBB46 /* PataCore */; };
 		9DDA953C2868A62700ABBB46 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA953B2868A62700ABBB46 /* DetailsViewController.swift */; };
-		9DDA953E2868A7AD00ABBB46 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA953D2868A7AD00ABBB46 /* MainTabBarController.swift */; };
 		9DDA95402868A93400ABBB46 /* ListDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA953F2868A93400ABBB46 /* ListDirector.swift */; };
 		9DDA95422868A93D00ABBB46 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA95412868A93D00ABBB46 /* ListView.swift */; };
 		9DDA95442868A95600ABBB46 /* ListViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA95432868A95600ABBB46 /* ListViewModelFactory.swift */; };
@@ -97,7 +96,6 @@
 		9DDA95322868A1BF00ABBB46 /* PataCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PataCore; sourceTree = SOURCE_ROOT; };
 		9DDA95342868A45900ABBB46 /* MainAppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppCoordinator.swift; sourceTree = "<group>"; };
 		9DDA953B2868A62700ABBB46 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		9DDA953D2868A7AD00ABBB46 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		9DDA953F2868A93400ABBB46 /* ListDirector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDirector.swift; sourceTree = "<group>"; };
 		9DDA95412868A93D00ABBB46 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		9DDA95432868A95600ABBB46 /* ListViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelFactory.swift; sourceTree = "<group>"; };
@@ -217,7 +215,6 @@
 				9DDA95042868A16F00ABBB46 /* SceneDelegate.swift */,
 				9DDA95022868A16F00ABBB46 /* AppDelegate.swift */,
 				9DDA95342868A45900ABBB46 /* MainAppCoordinator.swift */,
-				9DDA953D2868A7AD00ABBB46 /* MainTabBarController.swift */,
 				9DDA954B2868AB3200ABBB46 /* MainDependencyContainer.swift */,
 			);
 			path = Basic;
@@ -512,7 +509,6 @@
 				9DDA95032868A16F00ABBB46 /* AppDelegate.swift in Sources */,
 				9DDA954C2868AB3200ABBB46 /* MainDependencyContainer.swift in Sources */,
 				9DDA95052868A16F00ABBB46 /* SceneDelegate.swift in Sources */,
-				9DDA953E2868A7AD00ABBB46 /* MainTabBarController.swift in Sources */,
 				9DDA95652868C3F400ABBB46 /* Artwork.swift in Sources */,
 				9DDA957A2869387800ABBB46 /* DefaultHistoryRepository.swift in Sources */,
 				9DDA953C2868A62700ABBB46 /* DetailsViewController.swift in Sources */,

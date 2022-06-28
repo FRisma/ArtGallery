@@ -9,7 +9,7 @@ import PataCore
 import UIKit
 
 final class MainAppCoordinator: NSObject, Coordinator {
-    typealias Dependencies = MainTabBarControllerFactory & ListCoordinator.Dependencies & HistoryCoordinator.Dependencies
+    typealias Dependencies = ListCoordinator.Dependencies & HistoryCoordinator.Dependencies
     private let dependencies: Dependencies
     
     var children: [Coordinator] = []
@@ -30,8 +30,7 @@ final class MainAppCoordinator: NSObject, Coordinator {
     }
     
     func present(animated: Bool, onDismissed: (() -> Void)?) {
-        let tabBarController = dependencies.makeMainTabBarController()
-        tabBarController.selectedIndex = 0
+        let tabBarController = UITabBarController(nibName: nil, bundle: nil)
         
         // Init coordinators
         // List
@@ -40,7 +39,6 @@ final class MainAppCoordinator: NSObject, Coordinator {
         listRootViewController.tabBarItem = UITabBarItem(title: "Explore",
                                                          image: UIImage(systemName: "paperplane.fill"),
                                                          selectedImage: nil)
-        tabBarController.add(tabViewController: listRootViewController, animated: false)
         
         // History
         let historyCoordinator = tabCoordinators.last! as! HistoryCoordinator
@@ -48,7 +46,8 @@ final class MainAppCoordinator: NSObject, Coordinator {
         historyRootViewController.tabBarItem = UITabBarItem(title: "History",
                                                             image: UIImage(systemName: "square.and.arrow.down"),
                                                             selectedImage: nil)
-        tabBarController.add(tabViewController: historyRootViewController, animated: false)
+        
+        tabBarController.viewControllers = [listRootViewController, historyRootViewController]
         
         showViewController(tabBarController)
     }

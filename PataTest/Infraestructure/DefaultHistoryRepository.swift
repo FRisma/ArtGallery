@@ -8,16 +8,7 @@
 import RealmSwift
 import Foundation
 
-final class DefaultHistoryRepository {
-    typealias Dependencies = Any
-    private let dependencies: Dependencies
-    
-    private var historyList: [Artwork] = []
-    
-    init(dependencies: Dependencies) {
-        self.dependencies = dependencies
-    }
-}
+final class DefaultHistoryRepository {}
 
 extension DefaultHistoryRepository: HistoryRepository {
     func getArtwork(id: Double) -> Artwork? {
