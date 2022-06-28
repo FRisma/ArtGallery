@@ -155,7 +155,7 @@ extension ListView: UICollectionViewDelegate, UICollectionViewDataSource, UIColl
     
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
         guard let viewModel = viewModel else { return }
-        if indexPath.row == viewModel.items.endIndex - 3 {
+        if indexPath.row == viewModel.items.endIndex - 6 {
             actionHandler(.attemptToShowLastItem)
         }
     }

@@ -51,11 +51,11 @@ final class HistoryView: UIView {
     
     private func setConstraints() {
         NSLayoutConstraint.activate([
-            tableView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor),
+            tableView.topAnchor.constraint(equalTo: topAnchor),
             tableView.leadingAnchor.constraint(equalTo: leadingAnchor),
             tableView.heightAnchor.constraint(greaterThanOrEqualToConstant: 500),
             tableView.trailingAnchor.constraint(equalTo: trailingAnchor),
-            tableView.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor)
+            tableView.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
     }
     
@@ -87,7 +87,7 @@ extension HistoryView: UITableViewDataSource {
         }
         let artwork = viewModel.items[indexPath.row]
         cell.configureCell(title: artwork.title,
-                           subtitle: "",
+                           subtitle: artwork.artistDisplay,
                            date: artwork.dateDisplay,
                            image: artwork.image)
         return cell

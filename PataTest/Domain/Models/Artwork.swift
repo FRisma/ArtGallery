@@ -17,8 +17,6 @@ final class Artwork: Object, Decodable {
     @Persisted
     var dateDisplay: String
     @Persisted
-    var mainReferenceNumber: String
-    @Persisted
     var artistDisplay: String
     @Persisted
     var imageId: String?

@@ -15,8 +15,8 @@ struct ListArtworkResquest: HTTPRequest {
     var parameters: [URLQueryItem]? {
         [
             URLQueryItem(name: "page", value: "\(self.page)"),
-            URLQueryItem(name: "limit", value: "15"),
-            URLQueryItem(name: "fields", value: "id,title,artist_display,date_display,main_reference_number,artist_id,thumbnail,image_id")
+            URLQueryItem(name: "limit", value: "25"),
+            URLQueryItem(name: "fields", value: "id,title,artist_display,date_display,artist_id,image_id")
         ]
     }
     var method: HTTPMethod = .get

@@ -38,14 +38,14 @@ final class MainAppCoordinator: NSObject, Coordinator {
         let listRootViewController = listCoordinator.rootViewController
         listRootViewController.tabBarItem = UITabBarItem(title: "Explore",
                                                          image: UIImage(systemName: "paperplane.fill"),
-                                                         selectedImage: nil)
+                                                         selectedImage: UIImage(systemName: "paperplane.fill"))
         
         // History
         let historyCoordinator = tabCoordinators.last! as! HistoryCoordinator
         let historyRootViewController = historyCoordinator.rootViewController
         historyRootViewController.tabBarItem = UITabBarItem(title: "History",
                                                             image: UIImage(systemName: "square.and.arrow.down"),
-                                                            selectedImage: nil)
+                                                            selectedImage: UIImage(systemName: "square.and.arrow.down"))
         
         tabBarController.viewControllers = [listRootViewController, historyRootViewController]
         

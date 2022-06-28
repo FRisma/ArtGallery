@@ -33,7 +33,6 @@ final class HistoryViewController: UIViewController {
     init(director: HistoryDirector) {
         self.director = director
         super.init(nibName: nil, bundle: nil)
-        hidesBottomBarWhenPushed = true
     }
     
     required init?(coder: NSCoder) {
@@ -73,6 +72,7 @@ final class HistoryViewController: UIViewController {
     private func handleDirectorState(_ state: HistoryDirector.State) {
         switch state {
         case .initial(let artworks):
+            removeErrorView()
             historyView.viewModel = HistoryView.ViewModel(items: artworks)
         case .noRecords:
             showErrorView(message: "No records, please go to the List Tab, play around and then come back", action: nil)

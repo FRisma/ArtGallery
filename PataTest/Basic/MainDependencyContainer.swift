@@ -19,7 +19,8 @@ final class MainDependencyContainer {
     
     lazy var historyRepository: HistoryRepository = {
         return DefaultNonPersistentHistoryRepository()
-//        return DefaultHistoryRepository()
+        // The following repository makes use of Realm and it's disabled because it throws an exception regarding threads
+        // return DefaultHistoryRepository()
     }()
     
     // MARK: - ImageRepositoryProvider
@@ -67,7 +68,8 @@ extension MainDependencyContainer: ListViewModelFactorBuilder {
 extension MainDependencyContainer: DetailsViewControllerFactory {
     func makeDetailsViewController(artwork: Artwork) -> DetailsViewController {
         let director = makeDetailsDirector(artwork: artwork)
-        return DetailsViewController(director: director)
+        let viewModelFactory = DetailsViewModelFactory()
+        return DetailsViewController(director: director, viewModelFactory: viewModelFactory)
     }
 }
 

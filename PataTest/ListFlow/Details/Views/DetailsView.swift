@@ -13,6 +13,7 @@ final class DetailsView: UIView {
         let image: PataImage?
         let title: String
         let artist: String
+        let isMoreInfoEnabled: Bool
         let artistDetails: Artist?
     }
     
@@ -168,6 +169,8 @@ final class DetailsView: UIView {
         if let image = viewModel.image {
             artImageView.setPataImage(image)
         }
+        
+        moreInfoButton.isHidden = !viewModel.isMoreInfoEnabled
         
         if let artistDetails = viewModel.artistDetails {
             fillDetailsView(artistDetails)

@@ -20,10 +20,10 @@ public extension UIViewController {
             errorParent.addSubview(errorView)
             
             NSLayoutConstraint.activate([
-                errorView.topAnchor.constraint(equalTo: errorParent.topAnchor),
+                errorView.topAnchor.constraint(equalTo: errorParent.safeAreaLayoutGuide.topAnchor),
                 errorView.leadingAnchor.constraint(equalTo: errorParent.leadingAnchor),
                 errorView.trailingAnchor.constraint(equalTo: errorParent.trailingAnchor),
-                errorView.bottomAnchor.constraint(equalTo: errorParent.bottomAnchor),
+                errorView.bottomAnchor.constraint(equalTo: errorParent.safeAreaLayoutGuide.bottomAnchor),
             ])
             
             errorView.retryHandler = { [weak self] in

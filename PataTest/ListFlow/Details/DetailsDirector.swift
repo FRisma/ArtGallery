@@ -21,7 +21,7 @@ final class DetailsDirector {
     }
     
     enum State {
-        case initial(ArtworkUIModel)
+        case initial(items: ArtworkUIModel, hasArtistInfo: Bool)
         case didFetchExtraInfo(Artist)
     }
     typealias StateUpdate = (State) -> Void
@@ -37,12 +37,12 @@ final class DetailsDirector {
     func handleEvent(_ event: Event) {
         switch event {
         case .viewIsReady:
-            stateListener(.initial(ArtworkUIModel(
-                id: artwork.id,
-                title: artwork.title,
-                image: dependencies.imageRepository.imageFor(imageId: artwork.imageId, quality: .high),
-                dateDisplay: artwork.dateDisplay,
-                artistDisplay: artwork.artistDisplay)))
+            stateListener(.initial(items: ArtworkUIModel(id: artwork.id,
+                                                         title: artwork.title,
+                                                         image: dependencies.imageRepository.imageFor(imageId: artwork.imageId, quality: .high),
+                                                         dateDisplay: artwork.dateDisplay,
+                                                         artistDisplay: artwork.artistDisplay),
+                                   hasArtistInfo: artwork.artistId != nil))
         case .moreInfo:
             fetchMoreInfo()
         }

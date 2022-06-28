@@ -22,9 +22,11 @@ final class DetailsViewController: UIViewController {
     }()
     
     private let director: DetailsDirector
+    private let viewModelFactory: DetailsViewModelFactory
     
-    init(director: DetailsDirector) {
+    init(director: DetailsDirector, viewModelFactory: DetailsViewModelFactory) {
         self.director = director
+        self.viewModelFactory = viewModelFactory
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -69,18 +71,6 @@ final class DetailsViewController: UIViewController {
     }
     
     private func handleDirectorState(_ state: DetailsDirector.State) {
-        switch state {
-        case .initial(let model):
-            detailsView.viewModel = DetailsView.ViewModel(image: model.image,
-                                                          title: model.title,
-                                                          artist: model.artistDisplay,
-                                                          artistDetails: nil)
-        case .didFetchExtraInfo(let artistInfo):
-            guard let previousViewModel = detailsView.viewModel else { return }
-            detailsView.viewModel = DetailsView.ViewModel(image: previousViewModel.image,
-                                                          title: previousViewModel.title,
-                                                          artist: previousViewModel.artist,
-                                                          artistDetails: artistInfo)
-        }
+        detailsView.viewModel = viewModelFactory.makeViewModelFrom(state, previousViewModel: detailsView.viewModel)
     }
 }

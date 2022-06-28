@@ -88,19 +88,7 @@ public enum APICaller {
         task.resume()
         
         return task
-    }
-    
-//    private static func apiErrorMessageCode(from data: Data?) -> (Int, String)? {
-//        if let errorDTO = try? JSONDecoder().decode(BitsoErrorCodeDescriptionDTO.self, from: data ?? .init()), let code = Int(errorDTO.errorCode) {
-//            return (code, errorDTO.description)
-//        }
-//
-//        if let errorDTO = try? JSONDecoder().decode(StandardErrorResponse.self, from: data ?? .init()) {
-//            return (errorDTO.error.code, errorDTO.error.message)
-//        }
-//
-//        return nil
-//    }
+    }    
 }
 
 struct PataNetworkErrorCodeDescriptionDTO: Decodable {
