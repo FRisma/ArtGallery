@@ -5,6 +5,7 @@
 //  Created by Franco on 26/06/22.
 //
 
+import RealmSwift
 import Foundation
 
 final class DefaultHistoryRepository {
@@ -20,19 +21,53 @@ final class DefaultHistoryRepository {
 
 extension DefaultHistoryRepository: HistoryRepository {
     func getArtwork(id: Double) -> Artwork? {
-        historyList.first(where: { $0.id == id })
+        do {
+            let engine = try Realm()
+            let result = engine.objects(Artwork.self).where { $0.id == id }.first
+            return result
+        } catch {
+            print(error)
+            return nil
+        }
     }
     
     func getLastSeenArtwork() -> Artwork? {
-        historyList.last
+        print("getLastSeenArtwork")
+        do {
+            let engine = try Realm()
+            let result = engine.objects(Artwork.self).last
+            return result
+        } catch {
+            print(error)
+            return nil
+        }
     }
     
     func getHitstoryArtworkList() -> [Artwork] {
-        historyList
+        print("FRISMA - getHitstoryArtworkList")
+        do {
+            let artworks = try Realm().objects(Artwork.self)
+            var historyArray: [Artwork] = []
+            for art in artworks {
+                historyArray.append(art)
+            }
+            return historyArray
+            
+        } catch {
+            print(error)
+            return []
+        }
     }
     
     func append(artwork: Artwork) {
-        historyList.removeAll(where: { artwork.id == $0.id })
-        historyList.append(artwork)
+        print("FRISMA - Append")
+        do {
+            let engine = try Realm()
+            try engine.write {
+                engine.add(artwork)
+            }
+        } catch {
+            print(error)
+        }
     }
 }

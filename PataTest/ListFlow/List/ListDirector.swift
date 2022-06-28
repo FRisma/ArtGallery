@@ -65,12 +65,7 @@ final class ListDirector {
                 let lastSeenArtwork = self.dependencies.historyRepository.getLastSeenArtwork()
                 var lastSeenUIModel: ArtworkUIModel? = nil
                 if let lastSeenArtwork = lastSeenArtwork {
-                    lastSeenUIModel = ArtworkUIModel(
-                        id: lastSeenArtwork.id,
-                        title: lastSeenArtwork.title,
-                        image: self.dependencies.imageRepository.imageFor(imageId: lastSeenArtwork.imageId, quality: .low),
-                        dateDisplay: lastSeenArtwork.dateDisplay,
-                        artistDisplay: lastSeenArtwork.artistDisplay)
+                    lastSeenUIModel = self.map(artworkModelToUIModel: lastSeenArtwork)
                 }
                 
                 self.stateListener(.didFetchItems(items: artworks.map(self.map(artworkModelToUIModel:)),

@@ -13,6 +13,7 @@
 		9DA4C99F286A5A44009146D7 /* ArtistDetailsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4C99E286A5A44009146D7 /* ArtistDetailsRequest.swift */; };
 		9DA4C9A1286A5A4D009146D7 /* ArtistDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4C9A0286A5A4D009146D7 /* ArtistDetailsResponse.swift */; };
 		9DA4C9A3286A5BBF009146D7 /* DefaultArtistRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4C9A2286A5BBF009146D7 /* DefaultArtistRepository.swift */; };
+		9DA4C9A6286A6F55009146D7 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9DA4C9A5286A6F55009146D7 /* RealmSwift */; };
 		9DDA95032868A16F00ABBB46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA95022868A16F00ABBB46 /* AppDelegate.swift */; };
 		9DDA95052868A16F00ABBB46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA95042868A16F00ABBB46 /* SceneDelegate.swift */; };
 		9DDA95072868A16F00ABBB46 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA95062868A16F00ABBB46 /* ListViewController.swift */; };
@@ -128,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA4C9A6286A6F55009146D7 /* RealmSwift in Frameworks */,
 				9DDA95382868A47F00ABBB46 /* PataCore in Frameworks */,
 				9DDA956D2868E93D00ABBB46 /* PataNetwork in Frameworks */,
 			);
@@ -368,6 +370,7 @@
 			packageProductDependencies = (
 				9DDA95372868A47F00ABBB46 /* PataCore */,
 				9DDA956C2868E93D00ABBB46 /* PataNetwork */,
+				9DA4C9A5286A6F55009146D7 /* RealmSwift */,
 			);
 			productName = PataTest;
 			productReference = 9DDA94FF2868A16F00ABBB46 /* PataTest.app */;
@@ -442,6 +445,7 @@
 			);
 			mainGroup = 9DDA94F62868A16F00ABBB46;
 			packageReferences = (
+				9DA4C9A4286A6F55009146D7 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = 9DDA95002868A16F00ABBB46 /* Products */;
 			projectDirPath = "";
@@ -865,7 +869,23 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		9DA4C9A4286A6F55009146D7 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		9DA4C9A5286A6F55009146D7 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DA4C9A4286A6F55009146D7 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
 		9DDA95372868A47F00ABBB46 /* PataCore */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PataCore;
