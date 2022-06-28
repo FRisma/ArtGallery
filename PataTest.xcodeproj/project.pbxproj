@@ -14,6 +14,7 @@
 		9DA4C9A1286A5A4D009146D7 /* ArtistDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4C9A0286A5A4D009146D7 /* ArtistDetailsResponse.swift */; };
 		9DA4C9A3286A5BBF009146D7 /* DefaultArtistRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4C9A2286A5BBF009146D7 /* DefaultArtistRepository.swift */; };
 		9DA4C9A6286A6F55009146D7 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9DA4C9A5286A6F55009146D7 /* RealmSwift */; };
+		9DA4C9AA286A7F82009146D7 /* DefaultNonPersistentHistoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4C9A9286A7F82009146D7 /* DefaultNonPersistentHistoryRepository.swift */; };
 		9DDA95032868A16F00ABBB46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA95022868A16F00ABBB46 /* AppDelegate.swift */; };
 		9DDA95052868A16F00ABBB46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA95042868A16F00ABBB46 /* SceneDelegate.swift */; };
 		9DDA95072868A16F00ABBB46 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA95062868A16F00ABBB46 /* ListViewController.swift */; };
@@ -79,6 +80,7 @@
 		9DA4C99E286A5A44009146D7 /* ArtistDetailsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailsRequest.swift; sourceTree = "<group>"; };
 		9DA4C9A0286A5A4D009146D7 /* ArtistDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailsResponse.swift; sourceTree = "<group>"; };
 		9DA4C9A2286A5BBF009146D7 /* DefaultArtistRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultArtistRepository.swift; sourceTree = "<group>"; };
+		9DA4C9A9286A7F82009146D7 /* DefaultNonPersistentHistoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNonPersistentHistoryRepository.swift; sourceTree = "<group>"; };
 		9DDA94FF2868A16F00ABBB46 /* PataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DDA95022868A16F00ABBB46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DDA95042868A16F00ABBB46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -269,6 +271,7 @@
 				9DDA95792869387800ABBB46 /* DefaultHistoryRepository.swift */,
 				9DDA957B2869FFD700ABBB46 /* ArticImageRepository.swift */,
 				9DA4C9A2286A5BBF009146D7 /* DefaultArtistRepository.swift */,
+				9DA4C9A9286A7F82009146D7 /* DefaultNonPersistentHistoryRepository.swift */,
 			);
 			path = Infraestructure;
 			sourceTree = "<group>";
@@ -522,6 +525,7 @@
 				9DDA958C286A348700ABBB46 /* HistoryView.swift in Sources */,
 				9DDA954A2868A97F00ABBB46 /* DetailsViewModelFactory.swift in Sources */,
 				9DDA95672868E4E500ABBB46 /* LastSeenCardView.swift in Sources */,
+				9DA4C9AA286A7F82009146D7 /* DefaultNonPersistentHistoryRepository.swift in Sources */,
 				9DDA95402868A93400ABBB46 /* ListDirector.swift in Sources */,
 				9DA4C9A3286A5BBF009146D7 /* DefaultArtistRepository.swift in Sources */,
 				9DDA95692868E67D00ABBB46 /* DefaultArtworkRepository.swift in Sources */,

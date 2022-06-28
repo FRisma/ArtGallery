@@ -30,8 +30,6 @@ final class MainTabBarController: UITabBarController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    
-    
     func add(tabViewController: UIViewController, animated: Bool) {
         let tabBarViewControllers = tabsViewControllers + [tabViewController]
         setViewControllers(tabBarViewControllers, animated: animated)

@@ -18,7 +18,8 @@ final class MainDependencyContainer {
     // MARK: - HistoryRepositoryProvider
     
     lazy var historyRepository: HistoryRepository = {
-        DefaultHistoryRepository(dependencies: self)
+        returngiDefaultNonPersistentHistoryRepository(dependencies: self)
+//        DefaultHistoryRepository(dependencies: self)
     }()
     
     // MARK: - ImageRepositoryProvider

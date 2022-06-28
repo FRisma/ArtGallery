@@ -37,13 +37,17 @@ final class MainAppCoordinator: NSObject, Coordinator {
         // List
         let listCoordinator = tabCoordinators.first! as! ListCoordinator
         let listRootViewController = listCoordinator.rootViewController
-        listRootViewController.tabBarItem = UITabBarItem(title: "Explore", image: nil, selectedImage: nil)
+        listRootViewController.tabBarItem = UITabBarItem(title: "Explore",
+                                                         image: UIImage(systemName: "paperplane.fill"),
+                                                         selectedImage: nil)
         tabBarController.add(tabViewController: listRootViewController, animated: false)
         
         // History
         let historyCoordinator = tabCoordinators.last! as! HistoryCoordinator
         let historyRootViewController = historyCoordinator.rootViewController
-        historyRootViewController.tabBarItem = UITabBarItem(title: "History", image: nil, selectedImage: nil)
+        historyRootViewController.tabBarItem = UITabBarItem(title: "History",
+                                                            image: UIImage(systemName: "square.and.arrow.down"),
+                                                            selectedImage: nil)
         tabBarController.add(tabViewController: historyRootViewController, animated: false)
         
         showViewController(tabBarController)
